@@ -1,0 +1,1602 @@
+target_unit,target_head,correct_element,lexical_category,subcategory,source_target,error_variant,error_type,learner_sentence,correct_sentence,comment,source_error
+at 6 o’clock,at 6 o’clock,at ,prepositions,time_of_day,statistics,in,preposition_error,I usually wake up in 6 o’clock because my lessons start early.,I usually wake up at 6 o’clock because my lessons start early.,Типичная ошибка: перенос русской модели времени с неверным выбором предлога.,REALEC
+at 6 o’clock,at 6 o’clock,at ,prepositions,time_of_day,statistics,on,preposition_error,"The meeting started on 6 o’clock, but several students were late.","The meeting started at 6 o’clock, but several students were late.",Неверный выбор предлога с точным временем.,REALEC
+ at night, at night,at ,prepositions,time_of_day,statistics,in,preposition_error,I prefer studying in night because it is quiet and nobody disturbs me.,I prefer studying at night because it is quiet and nobody disturbs me.,Типичная ошибка: перенос русской модели «ночью» как in night,REALEC
+ at night, at night,at ,prepositions,time_of_day,statistics,on,preposition_error,I do not like walking alone on night because the streets are empty.,I do not like walking alone at night because the streets are empty.,Неверный выбор предлога времени,REALEC
+at lunchtime,at lunchtime,at ,prepositions,time_of_day,statistics,in,preposition_error,I usually meet my friends in lunchtime near the school cafeteria.,I usually meet my friends at lunchtime near the school cafeteria.,Типичная ошибка: неверный выбор предлога для обозначения времени приёма пищи.,REALEC
+at lunchtime,at lunchtime,at ,prepositions,time_of_day,statistics,on,preposition_error,We usually discuss our plans during lunchtime.,We usually discuss our plans on lunchtime.,"Ошибка выбора предлога: during возможно в некоторых контекстах, но в модели из справочника проверяется сочетание at lunchtime.",REALEC
+at sunset,at sunset,at,prepositions,time_of_day,statistics,in,preposition_error,We arrived at the beach in sunset and took many beautiful photos.,We arrived at the beach at sunset and took many beautiful photos.,Типичная ошибка: неверный выбор предлога для обозначения конкретного момента времени.,REALEC
+at sunset,at sunset,at,prepositions,time_of_day,statistics,on,preposition_error,We like walking in the park on sunset when the air is cooler.,We like walking in the park at sunset when the air is cooler.,Неверный выбор предлога времени.,REALEC
+at the weekend,at the weekend,at ,prepositions,fixed_time_expression,statistics,in,preposition_error,I usually visit my grandparents in the weekend because I have more free time.,I usually visit my grandparents at the weekend because I have more free time.,Типичная ошибка: неверный выбор предлога в устойчивом выражении времени,REALEC
+at the weekend,at the weekend,at ,prepositions,fixed_time_expression,statistics,on,preposition_error,We often go shopping on the weekend with my family.,We often go shopping at the weekend with my family.,"Возможный дистрактор: on the weekend встречается в AmE, но в модели справочника проверяется BrE-вариант at the weekend.",REALEC
+ at Christmas, at Christmas,at ,prepositions,fixed_time_expression,statistics,in,preposition_error,My family usually visits our relatives in Christmas.,My family usually visits our relatives at Christmas.,Типичная ошибка: неверный выбор предлога для обозначения праздничного периода.,REALEC
+ at Christmas, at Christmas,at ,prepositions,fixed_time_expression,statistics,on,preposition_error,We always decorate the house on Christmas.,We always decorate the house at Christmas.,"Возможный дистрактор: on Christmas Day грамматически возможно, но в модели справочника проверяется выражение at Christmas.",REALEC
+at the moment,at the moment,at ,prepositions,fixed_time_expression,statistics,in,preposition_error,I am very busy in the moment because I have many exams.,I am very busy at the moment because I have many exams.,Типичная ошибка: перенос русской модели «в данный момент» как in the moment.,REALEC
+at the moment,at the moment,at ,prepositions,fixed_time_expression,statistics,on,preposition_error,She cannot answer the phone on the moment because she is driving.,She cannot answer the phone at the moment because she is driving.,Неверный выбор предлога в устойчивом выражении времени.,REALEC
+at first,at first,at ,prepositions,fixed_time_expression,statistics,in,preposition_error,"In first, I did not understand the task, but then it became easier.","At first, I did not understand the task, but then it became easier.",Типичная ошибка: перенос русской модели «сначала» с неверным выбором предлога.,REALEC
+at first,at first,at ,prepositions,fixed_time_expression,statistics,from,preposition_error,"From first, I thought that the exam would be very difficult.","At first, I thought that the exam would be very difficult.",Неверный выбор предлога в устойчивом выражении.,REALEC
+at the same time,at the same time,at ,prepositions,fixed_time_expression,statistics,in ,preposition_error,"In the same time, many students try to prepare for several exams.","At the same time, many students try to prepare for several exams.",Типичная ошибка: перенос русской модели «в то же время» как in the same time.,REALEC
+at the same time,at the same time,at ,prepositions,fixed_time_expression,statistics,on,preposition_error,"On the same time, people should not forget about their health.","At the same time, people should not forget about their health.",Ошибка выбора предлога: смешение с выражением during this time.,REALEC
+at the end of June,at the end of June,at ,prepositions,fixed_time_expression,statistics,in,preposition_error,"In the end of June, we usually finish our exams and start summer holidays.","At the end of June, we usually finish our exams and start summer holidays.",Типичная ошибка: перенос русской модели «в конце июня» как in the end of June.,REALEC
+at the end of June,at the end of June,at ,prepositions,fixed_time_expression,statistics,on,preposition_error,"On the end of June, many students leave the city for holidays.","At the end of June, many students leave the city for holidays.",Неверный выбор предлога в устойчивом выражении времени.,REALEC
+at the end of June,at the end of June,at ,prepositions,fixed_time_expression,statistics,by,preposition_error,"By the end of June, we had a school concert and said goodbye to our teachers.","At the end of June, we had a school concert and said goodbye to our teachers.","Возможный дистрактор: by the end of June означает «к концу июня», а не просто «в конце июня».",REALEC
+on Sunday,on Sunday,on,prepositions,day_of_week_time,statistics,in,preposition_error,"In Sunday, I usually visit my grandparents and help them in the garden.","At Sunday, I usually visit my grandparents and help them in the garden.",Типичная ошибка: неверный выбор предлога с днём недели.,REALEC
+on Sunday,on Sunday,on,prepositions,day_of_week_time,statistics,at,preposition_error,"At Sunday, we went to the cinema with our friends.","On Sunday, we went to the cinema with our friends.",Ошибка выбора предлога времени: с днями недели употребляется on.,REALEC
+on 9 November 1949,on 9 November 1950,on,prepositions,day_of_week_time,statistics,in,preposition_error,"In 9 November 1949, an important political event took place.","On 9 November 1949, an important political event took place.",Типичная ошибка: неверный выбор предлога с конкретной датой,REALEC
+on 9 November 1949,on 9 November 1951,on,prepositions,day_of_week_time,statistics,at,preposition_error,"At 9 November 1949, the country entered a new historical period.","On 9 November 1949, the country entered a new historical period.",Ошибка выбора предлога времени: с конкретными датами употребляется on.,REALEC
+on my birthday,on my birthday,on,prepositions,day_of_week_time,statistics,in,preposition_error,"In my birthday, my parents usually invite all my friends to our house.","On my birthday, my parents usually invite all my friends to our house.",Типичная ошибка: неверный выбор предлога с конкретным днём.,REALEC
+on my birthday,on my birthday,on,prepositions,day_of_week_time,statistics,at,preposition_error,"At my birthday, I received many presents from my relatives.","On my birthday, I received many presents from my relatives.",Ошибка выбора предлога времени: с днями и датами употребляется on.,REALEC
+on time ,on time ,on,prepositions,fixed_time_expression,statistics,in,preposition_error,"The students came in time for the lesson, so the teacher was pleased.","The students came on time for the lesson, so the teacher was pleased.","Смешение выражений on time и in time: в данном контексте требуется значение «пунктуально, без опоздания».",REALEC
+on time ,on time ,on,prepositions,fixed_time_expression,statistics,at,preposition_error,"The train arrived at time, and nobody had to wait.","The train arrived on time, and nobody had to wait.",Неверный выбор предлога в устойчивом выражении.,REALEC
+on time ,on time ,on,prepositions,fixed_time_expression,statistics,by,preposition_error,She always does her homework by time and never forgets about deadlines.,,"Ошибка выбора предлога: by требует указания срока, например by 6 o’clock, а не выражения by time.",REALEC
+on arrival,on arrival,on,prepositions,fixed_time_expression,statistics,at,preposition_error,"At arrival at the airport, passengers must go through passport control.","On arrival at the airport, passengers must go through passport control.",Неверный выбор предлога в устойчивом выражени,REALEC
+in May,in May,in ,prepositions,long_periods_time,statistics,on,preposition_error,"On May, students usually start preparing for their final exams.","In May, students usually start preparing for their final exams.",Типичная ошибка: неверный выбор предлога с названием месяца.,REALEC
+in May,in May,in ,prepositions,long_periods_time,statistics,at,preposition_error,"At May, the weather usually becomes warmer and sunnier.","In May, the weather usually becomes warmer and sunnier.",Ошибка выбора предлога времени: с месяцами употребляется in.,REALEC
+in the 20th century,in the 20th century,in ,prepositions,long_periods_time,statistics,on,preposition_error,"On the 20th century, technology developed very quickly.","In the 20th century, technology developed very quickly.",Типичная ошибка: неверный выбор предлога с длительным историческим периодом.,REALEC
+in the 20th century,in the 20th century,in ,prepositions,long_periods_time,statistics,at,preposition_error,"At the 20th century, many countries experienced rapid social changes.","In the 20th century, many countries experienced rapid social changes.",Ошибка выбора предлога времени: с веками употребляется in.,REALEC
+in (the) summer,in (the) summer,in ,prepositions,long_periods_time,statistics,on ,preposition_error,"On summer, many students travel with their families.","In summer, many students travel with their families.",Типичная ошибка: неверный выбор предлога с временем года.,REALEC
+in (the) summer,in (the) summer,in ,prepositions,long_periods_time,statistics,at,preposition_error,"At the summer, we usually spend a lot of time outdoors.","In the summer, we usually spend a lot of time outdoors.",Ошибка выбора предлога времени: с временами года употребляется in.,REALEC
+in the morning,in the morning,in ,prepositions,fixed_time_expression,statistics,at,preposition_error,"At the morning, I usually have breakfast and get ready for school.","In the morning, I usually have breakfast and get ready for school.",Типичная ошибка: неверный выбор предлога с частью дня.,REALEC
+in the morning,in the morning,in ,prepositions,fixed_time_expression,statistics,on,preposition_error,"On the morning, many students feel sleepy during the first lesson.","In the morning, many students feel sleepy during the first lesson.",Неверный выбор предлога времени: с выражением the morning употребляется in.,REALEC
+in the afternoon,in the afternoon,in ,prepositions,fixed_time_expression,statistics,at ,preposition_error,"At the afternoon, we usually do our homework or go for a walk.","In the afternoon, we usually do our homework or go for a walk.",Неверный выбор предлога времени.,REALEC
+in the afternoon,in the afternoon,in ,prepositions,fixed_time_expression,statistics,on,preposition_error,"On the afternoon, I often have extra English lessons.","In the afternoon, I often have extra English lessons.",Неверный выбор предлога времени.,REALEC
+in a few minutes,in a few minutes,in,prepositions,fixed_time_expression,statistics,on,preposition_error,"The lesson will start on a few minutes, so we should hurry.","The lesson will start in a few minutes, so we should hurry.","Смысловой дистрактор: after a few minutes возможно в других контекстах, но здесь требуется выражение будущего времени in a few minutes.",REALEC
+in time (for sth= soon enough),in time,in,prepositions,fixed_time_expression,statistics,on,preposition_error,We arrived on time for the last train and managed to get home.,We arrived in time for the last train and managed to get home.,Смешение выражений in time и on time: здесь требуется значение «успеть к чему-либо».,REALEC
+in time (for sth= soon enough),in time,in,prepositions,fixed_time_expression,statistics,by,preposition_error,"She came by time for the meeting, although the traffic was terrible.","She came in time for the meeting, although the traffic was terrible.","Ошибка выбора предлога: by требует конкретного срока, например by 6 o’clock, а не выражения by time.",REALEC
+in the end (finally),in the end,in,prepositions,fixed_time_expression,statistics,at,preposition_error,"At the end, we decided to stay at home because the weather was terrible.","In the end, we decided to stay at home because the weather was terrible.",Смешение выражений in the end и at the end: здесь требуется значение «в конце концов».,REALEC
+for a long time,for a long time,for,prepositions,for_types_time,statistics,on,preposition_error,She has been interested in English on a long time.,She has been interested in English for a long time.,Ошибка выбора предлога: для обозначения длительности действия требуется for.,REALEC
+for the weekend,for the weekend,for,prepositions,for_types_time,statistics,on,preposition_error,We are going to the country on the weekend and will come back on Monday.,We are going to the country for the weekend and will come back on Monday.,"Смешение выражений: здесь требуется значение «на период выходных», поэтому употребляется for.",REALEC
+since last year,since last year,since,prepositions,since_types_time,statistics,from,preposition_error,She has lived in this city from last year.,She has lived in this city since last year.,Ошибка выбора предлога: для обозначения длительности действия требуется since.,REALEC
+since 1998,since 1999,since,prepositions,since_types_time,statistics,for,preposition_error,Our school has used this building for 1998.,Our school has used this building since 1998.,"Смешение since и for: since употребляется с начальной точкой, а for — с периодом времени.",REALEC
+since morning,since morning,since,prepositions,since_types_time,statistics,from,preposition_error,I have been tired from morning because I slept badly.,I have been tired since morning because I slept badly.,Типичная ошибка: перенос русской модели «с утра» как from morning.,REALEC
+since 3 o’clock,since 3 o’clock,since,prepositions,since_types_time,statistics,from,preposition_error,I have been waiting for my friend from 3 o’clock.,I have been waiting for my friend since 3 o’clock.,Типичная ошибка: перенос русской модели «с трёх часов» как from 3 o’clock в контексте Present Perfect.,REALEC
+by 5 o’clock,by 5 o’clock,by ,prepositions,by_types_time,statistics,at,preposition_error,I must finish my homework at 5 o’clock because the teacher wants to check it then.,I must finish my homework by 5 o’clock because the teacher wants to check it then.,Смешение by и at: здесь требуется значение «не позже пяти часов».,REALEC
+by tomorrow,by tomorrow,by ,prepositions,by_types_time,statistics,on,preposition_error,I need to prepare my presentation on tomorrow.,I need to prepare my presentation by tomorrow.,"Неверный выбор предлога времени; tomorrow обычно употребляется без предлога, а для срока нужен by.",REALEC
+by 2003,by 2004,by ,prepositions,by_types_time,statistics,in,preposition_error,"In 2003, the company had opened ten new offices.","By 2003, the company had opened ten new offices.","Смысловой дистрактор: in 2003 обозначает время события, а by 2003 — результат к определённому моменту.",REALEC
+by the end of Juy,by the end of Juy,by ,prepositions,by_types_time,statistics,in,preposition_error,"In the end of July, we will finish the project.","By the end of July, we will finish the project.",Типичная ошибка: перенос русской модели «к/в конце июля» с неверным предлогом.,REALEC
+till 5 o’clock,till 5 o’clock,till,prepositions,till_types_time,statistics,to,preposition_error,I stayed at school to 5 o’clock because we had extra classes.,I stayed at school till 5 o’clock because we had extra classes.,Смешение предлогов to и till: в данном контексте требуется значение продолжения действия до определенного момента.,REALEC
+till Monday,till Monday,till,prepositions,till_types_time,statistics,to,preposition_error,The library will be closed to Monday because of the repair works.,The library will be closed till Monday because of the repair works.,Типичная ошибка русскоязычных учащихся: буквальный перенос русского предлога «до» как to в значении временного предела.,REALEC
+till the early morning,till the early morning,till,prepositions,till_types_time,statistics,to,preposition_error,We talked to the early morning and did not notice the time.,We talked till the early morning and did not notice the time.,Типичная ошибка русскоязычных учащихся: буквальный перенос русского предлога «до» как to в значении временного предела.,REALEC
+till the early morning,till the early morning,till,prepositions,till_types_time,statistics,by,preposition_error,They stayed at the party by the early morning and then went home.,They stayed at the party till the early morning and then went home.,"Смешение till и by: till обозначает продолжение действия до момента, а by — крайний срок выполнения действия.",REALEC
+in the room,in the room,in,prepositions,place,statistics,at,preposition_error,There were many students at the room when the teacher came in.,There were many students in the room when the teacher came in.,"Смешение предлогов in и at: в данном контексте помещение рассматривается как внутреннее пространство, а не как точка/место события.",REALEC
+in London,in London,in,prepositions,place,statistics,at,preposition_error,My sister lives at London and works for a large company.,My sister lives in London and works for a large company.,"Смешение предлогов in и at: город рассматривается как территория, поэтому употребляется in.",REALEC
+in a line,in a line,in,prepositions,place,statistics,on,preposition_error,The children stood on a line before entering the classroom.,The children stood in a line before entering the classroom.,Смешение предлогов in и on: в выражении in a line имеется в виду расположение людей в линии/порядке.,REALEC
+in a line,in a line,in,prepositions,place,statistics,at,preposition_error,We waited at a line for tickets to the concert.,We waited in a line for tickets to the concert.,Неверный выбор предлога: требуется выражение нахождения в очереди/линии.,REALEC
+in a tree,in a tree,in,prepositions,place,statistics,on,preposition_error,There was a small bird on a tree near our house.,There was a small bird in a tree near our house.,Смешение предлогов in и on: для птицы или животного среди ветвей используется in a tree.,REALEC
+at the bus stop,at the bus stop,at,prepositions,place,statistics,on,preposition_error,We met on the bus stop after school and went home together.,We met at the bus stop after school and went home together.,"Неверный выбор предлога места: on обозначает поверхность, а здесь требуется указание конкретной локации.",REALEC
+at the station,at the station,at,prepositions,place,statistics,on,preposition_error,I was waiting for my parents on the station for almost an hour.,I was waiting for my parents at the station for almost an hour.,"Неверный выбор предлога места: on обозначает поверхность, а здесь требуется указание конкретной локации.",REALEC
+at the airport,at the airport,at,prepositions,place,statistics,in,preposition_error,We arrived in the airport two hours before the flight.,We arrived at the airport two hours before the flight.,"Смешение предлогов at и in: аэропорт рассматривается как конкретная локация, а не только как внутреннее пространство здания.",REALEC
+at the airport,at the airport,at,prepositions,place,statistics,on,preposition_error,I met my uncle on the airport after his flight from Spain.,I met my uncle at the airport after his flight from Spain.,"Неверный выбор предлога места: on обозначает поверхность, а здесь требуется указание конкретной локации.",REALEC
+at the theatre,at the theatre,at,prepositions,place,statistics,in,preposition_error,We met in the theatre before the performance started.,We met at the theatre before the performance started.,"Смешение предлогов at и in: театр рассматривается как место события, а не только как внутреннее пространство здания.",REALEC
+at school,at school,at,prepositions,person_place,statistics,in,preposition_error,"My brother is in school now, so he cannot answer the phone.","My brother is at school now, so he cannot answer the phone.","Смешение предлогов at и in: школа рассматривается как учреждение/место учебной деятельности, а не только как внутреннее пространство здания.",REALEC
+at work,at work,at,prepositions,person_place,statistics,on,preposition_error,She is on work today and will come home late.,She is at work today and will come home late.,Неверный выбор предлога: on не используется для обозначения нахождения на работе.,REALEC
+on the left,on the left,on,prepositions,position_place,statistics,in,preposition_error,There is a small table in the left of the room.,There is a small table on the left of the room.,Смешение предлогов on и in: в устойчивом выражении положения используется on the left.,REALEC
+on the menu,on the menu,on,prepositions,position_place,statistics,in,preposition_error,There are many vegetarian dishes in the menu.,There are many vegetarian dishes on the menu.,Смешение предлогов on и in: под влиянием русской модели «в меню» учащийся может выбрать in.,REALEC
+on the Internet,on the Internet,on,prepositions,position_place,statistics,in,preposition_error,I found a lot of useful information in the Internet.,I found a lot of useful information on the Internet.,Смешение предлогов on и in: под влиянием русской модели «в Интернете» учащийся может выбрать in,REALEC
+on the corner of a street,on the corner,on,prepositions,position_place,statistics,at,preposition_error,There is a bookshop at the corner of the street.,There is a bookshop on the corner of the street.,Смешение on the corner и at the corner: для расположения объекта на углу улицы предпочтительно on.,REALEC
+at the corner of a street,at the corner ,at,prepositions,position_place,statistics,on,preposition_error,I waited for my friend on the corner of the street.,I waited for my friend at the corner of the street.,Смешение at the corner и on the corner: для точки встречи или нахождения предпочтительно at.,REALEC
+along Abbey Road,along Abbey Road,along,prepositions,position_place,statistics,on,preposition_error,We were driving on Abbey Road and looking at the old buildings.,We were driving along Abbey Road and looking at the old buildings.,"Смешение предлогов along и on: в данном контексте важно движение вдоль дороги, а не просто нахождение на дороге.",REALEC
+head for the train station,head for the train station,for,prepositions,position_place,statistics,to,preposition_error,They were heading to the train station because their train was leaving soon.,They were heading for the train station because their train was leaving soon.,Смешение моделей head for и head to: в справочнике проверяется сочетание head for в значении направления к месту.,REALEC
+advice on,advice ,on,prepositions,noun_preposition,statistics,in,preposition_error,My teacher gave me useful advice in how to prepare for the exam.,My teacher gave me useful advice on how to prepare for the exam.,Смешение предлогов после существительного advice: в значении «совет по вопросу» употребляется advice on.,REALEC
+advice about,advice ,about,prepositions,noun_preposition,statistics,for,preposition_error,She gave me advice for my future career.,She gave me advice about my future career.,Смешение предлогов после существительного advice: в данном контексте требуется about.,REALEC
+answer to,answer ,to,prepositions,noun_preposition,statistics,on,preposition_error,I could not find the answer on this question in the textbook.,I could not find the answer to this question in the textbook.,Смешение предлогов после существительного answer: под влиянием русской модели «ответ на вопрос» учащийся может выбрать on.,REALEC
+(take) care of,care ,of,prepositions,noun_preposition,statistics,about,preposition_error,My grandmother always takes care about her plants.,My grandmother always takes care of her plants.,Смешение предлогов после выражения take care: под влиянием русской модели «заботиться о» учащийся может выбрать about.,REALEC
+damage to,damage ,to,prepositions,noun_preposition,statistics,of,preposition_error,The storm caused serious damage of the old building.,The storm caused serious damage to the old building.,Смешение предлогов после существительного damage: под влиянием русской модели «повреждение чего-либо» учащийся может выбрать of.,REALEC
+effect on,effect ,on,prepositions,noun_preposition,statistics,to,preposition_error,Social media has a strong effect to teenagers’ communication.,Social media has a strong effect on teenagers’ communication.,Смешение предлогов после существительного effect: под влиянием русской модели «влияние на» учащийся может выбрать to.,REALEC
+example of,example ,of,prepositions,noun_preposition,statistics,about,preposition_error,The teacher gave us an example about a common grammar mistake.,The teacher gave us an example of a common grammar mistake.,Неверный выбор предлога после существительного example.,REALEC
+hope for,hope ,for,prepositions,noun_preposition,statistics,of,preposition_error,Many students have hope of a better future after graduation.,Many students have hope for a better future after graduation.,Смешение предлогов после существительного hope: в значении «надежда на что-либо» обычно употребляется hope for.,REALEC
+influence on,influence ,on,prepositions,noun_preposition,statistics,to,preposition_error,Social networks have a strong influence to teenagers.,Social networks have a strong influence on teenagers.,Смешение предлогов после существительного influence: под влиянием русской модели «влияние на» учащийся может выбрать to.,REALEC
+knowledge of,knowledge ,of,prepositions,noun_preposition,statistics,in,preposition_error,Good knowledge in English is important for travelling and studying abroad.,Good knowledge of English is important for travelling and studying abroad.,Смешение предлогов после существительного knowledge: в значении «знание языка/предмета» требуется knowledge of.,REALEC
+knowledge of,knowledge ,of,prepositions,noun_preposition,statistics,about,preposition_error,Students need basic knowledge about grammar rules before writing an essay.,Students need basic knowledge of grammar rules before writing an essay.,Смешение knowledge of и knowledge about: в данной модели справочника проверяется управление of.,REALEC
+lack of,lack,of,prepositions,noun_preposition,statistics,in,preposition_error,Lack in time is one of the main problems for students before exams.,Lack of time is one of the main problems for students before exams.,Смешение управления существительного lack of с моделью be lacking in.,REALEC
+need for,need,for,prepositions,noun_preposition,statistics,in,preposition_error,There is a great need in better education in small towns.,There is a great need for better education in small towns.,Смешение предлогов после существительного need: под влиянием русской модели «потребность в» учащийся может выбрать in.,REALEC
+opportunity for,opportunity ,for,prepositions,noun_preposition,statistics,of,preposition_error,This programme creates an opportunity of professional development.,This programme creates an opportunity for professional development.,Неверный выбор предлога после существительного opportunity: в значении «возможность для чего-либо» требуется for.,REALEC
+(take) part in,take part ,in,prepositions,noun_preposition,statistics,at,preposition_error,Many students took part at the school competition last week.,Many students took part in the school competition last week.,Смешение предлогов после выражения take part: под влиянием русской модели «участвовать на мероприятии» учащийся может выбрать at.,REALEC
+access to,access ,to,prepositions,noun_preposition,statistics,in,preposition_error,Many students do not have access in online libraries at home.,Many students do not have access to online libraries at home.,Смешение предлогов после существительного access: под влиянием русской модели «доступ в» учащийся может выбрать in.,REALEC
+complaint about,complaint,about,prepositions,noun_preposition,statistics,on,preposition_error,The customer made a complaint on the quality of the food.,The customer made a complaint about the quality of the food.,Смешение предлогов после существительного complaint: под влиянием русской модели «жалоба на» учащийся может выбрать on.,REALEC
+invitation to,invitation ,to,prepositions,noun_preposition,statistics,on,preposition_error,I received an invitation on my friend’s birthday party.,I received an invitation to my friend’s birthday party.,Смешение предлогов после существительного invitation: под влиянием русской модели «приглашение на» учащийся может выбрать on,REALEC
+opposite of,opposite ,of,prepositions,noun_preposition,statistics,to,preposition_error,"His opinion was the opposite to mine, so we argued for a long time.","His opinion was the opposite of mine, so we argued for a long time.",Смешение предлогов после слова opposite: в модели the opposite of something требуется предлог of.,REALEC
+reaction to,reaction ,to,prepositions,noun_preposition,statistics,on,preposition_error,Her reaction on the news was very emotional.,Her reaction to the news was very emotional.,Смешение предлогов после существительного reaction: под влиянием русской модели «реакция на» учащийся может выбрать on.,REALEC
+reason for,reason,for,prepositions,noun_preposition,statistics,of,preposition_error,The main reason of his decision was his family situation.,The main reason for his decision was his family situation.,Смешение предлогов после существительного reason: под влиянием русской модели «причина чего-либо» учащийся может выбрать of.,REALEC
+relationship between,relationship,between,prepositions,noun_preposition,statistics,of,preposition_error,Scientists studied the relationship of stress and sleep problems.,Scientists studied the relationship between stress and sleep problems.,Неверный выбор предлога после существительного relationship: в значении «связь между двумя явлениями» требуется between.,REALEC
+(have) roots in,roots,in,prepositions,noun_preposition,statistics,from,preposition_error,This tradition has roots from ancient history.,This tradition has in from ancient history.,Смешение предлогов после выражения have roots: под влиянием русской модели «происходить из» учащийся может выбрать from.,REALEC
+search for,search,for,prepositions,noun_preposition,statistics,about,preposition_error,Many students search about answers on the Internet before exams.,Many students search for answers on the Internet before exams.,Типичная ошибка под влиянием русской модели «искать информацию о чём-либо».,REALEC
+shame on sb,shame,on,prepositions,noun_preposition,statistics,of,preposition_error,Shame of him for lying to his friends.,Shame on him for lying to his friends.,Неверный выбор предлога в устойчивом выражении shame on somebody.,REALEC
+а specialist in,specialist,in,prepositions,noun_preposition,statistics,of,preposition_error,She is a specialist of digital linguistics and works at the university.,She is a specialist in digital linguistics and works at the university.,Смешение предлогов после существительного specialist: под влиянием русской модели «специалист по/в области» учащийся может выбрать of.,REALEC
+(feel) sympathy for,sympathy ,for,prepositions,noun_preposition,statistics,to,preposition_error,I felt sympathy to the main character because he lost his family.,I felt sympathy for the main character because he lost his family.,Смешение предлогов после существительного sympathy: под влиянием русской модели «сочувствие к» учащийся может выбрать to.,REALEC
+visit to,visit,to,prepositions,noun_preposition,statistics,in,preposition_error,Our visit in the museum was very interesting and useful.,Our visit to the museum was very interesting and useful.,Смешение предлогов после существительного visit: под влиянием русской модели «визит в» учащийся может выбрать in.,REALEC
+accustomed to,accustomed,to,prepositions,adjective_preposition,statistics,with,preposition_error,It was difficult for me to become accustomed with a new school.,It was difficult for me to become accustomed to a new school.,Смешение предлогов после прилагательного accustomed: под влиянием русской модели «привыкнуть к / освоиться с» учащийся может выбрать with.,REALEC
+addicted to,addicted,to,prepositions,adjective_preposition,statistics,of,preposition_error,Some children become addicted of computer games very quickly.,Some children become addicted to computer games very quickly.,Неверный выбор предлога после прилагательного addicted: в значении зависимости требуется to.,REALEC
+addicted to,addicted,to,prepositions,adjective_preposition,statistics,on,preposition_error,Many teenagers are addicted on social media and spend hours online.,Many teenagers are addicted to social media and spend hours online.,Смешение предлогов после прилагательного addicted: под влиянием русской модели «зависимый от / подсевший на» учащийся может выбрать on.,REALEC
+amazed at,amazed,at ,prepositions,adjective_preposition,statistics,of,preposition_error,I was amazed of his excellent result in the competition.,I was amazed at his excellent result in the competition.,Неверный выбор предлога после прилагательного amazed: в значении реакции на результат требуется at.,REALEC
+amazed by,amazed,by,prepositions,adjective_preposition,statistics,with,preposition_error,We were amazed with the beauty of the old city.,We were amazed by the beauty of the old city.,Смешение предлогов после прилагательного amazed: для указания причины удивления употребляется by.,REALEC
+amused at,amused,at ,prepositions,adjective_preposition,statistics,about,preposition_error,She was amused about the way her little brother tried to speak English.,She was amused at the way her little brother tried to speak English.,Неверный выбор предлога после прилагательного amused: для реакции на ситуацию используется at.,REALEC
+angry at sth,angry,at,prepositions,adjective_preposition,statistics,on,preposition_error,The students were angry on the unfair result of the competition.,The students were angry at the unfair result of the competition.,Смешение предлогов после прилагательного angry: под влиянием русской модели «злиться на что-либо» учащийся может выбрать on.,REALEC
+angry with sb,angry,with,prepositions,adjective_preposition,statistics,on,preposition_error,She was angry on her brother because he broke her phone.,She was angry at her brother because he broke her phone.,Смешение предлогов после прилагательного angry: под влиянием русской модели «злиться на кого-либо» учащийся может выбрать on.,REALEC
+annoyed about sth,annoyed,about,prepositions,adjective_preposition,statistics,on,preposition_error,I was annoyed on the noise outside my window.,I was annoyed about the noise outside my window.,Смешение предлогов после прилагательного annoyed: под влиянием русской модели «раздражён на что-либо» учащийся может выбрать on.,REALEC
+annoyed with sb,annoyed,with,prepositions,adjective_preposition,statistics,on,preposition_error,I was annoyed on my brother because he used my laptop without asking.,I was annoyed about my brother because he used my laptop without asking.,Смешение предлогов после прилагательного annoyed: под влиянием русской модели «раздражён на кого-либо» учащийся может выбрать on.,REALEC
+anxious about,anxious,about,prepositions,adjective_preposition,statistics,for,preposition_error,Many students are anxious for their final exams.,Many students are anxious about their final exams.,Смешение предлогов после прилагательного anxious: в значении беспокойства по поводу ситуации требуется about.,REALEC
+bad at sth,bad,at,prepositions,adjective_preposition,statistics,in,preposition_error,"I am bad in maths, so I need extra lessons before the exam.","I am bad at maths, so I need extra lessons before the exam.",Смешение предлогов после прилагательного bad: под влиянием русской модели «плох в чём-либо» учащийся может выбрать in.,REALEC
+bored with sth,bored,with,prepositions,adjective_preposition,statistics,of,preposition_error,Many students are bored of the same grammar tasks.,Many students are bored with the same grammar tasks.,Смешение моделей bored with и разговорного варианта bored of: в учебной модели справочника закрепляется bored with.,REALEC
+busy with,busy,with,prepositions,adjective_preposition,statistics,in,preposition_error,I was busy in my homework and could not answer the phone.,I was busy with my homework and could not answer the phone.,Смешение предлогов после прилагательного busy: под влиянием русской модели «занят чем-либо / в чём-либо» учащийся может выбрать in.,REALEC
+careful of,careful,of,prepositions,adjective_preposition,statistics,with,preposition_error,Students should be careful with mistakes when they write an essay.,Students should be careful of mistakes when they write an essay.,Смешение моделей careful of и careful with: в значении «остерегаться ошибок» требуется of.,REALEC
+certain about,certain,about ,prepositions,adjective_preposition,statistics,in,preposition_error,"I am not certain in my answer, so I want to check it again.","I am not certain of my answer, so I want to check it again.",Смешение предлогов после прилагательного certain: под влиянием русской модели «уверен в» учащийся может выбрать in.,REALEC
+certain about,certain,of,prepositions,adjective_preposition,statistics,in,preposition_error,"I am not certain in my answer, so I want to check it again.","I am not certain about my answer, so I want to check it again.",Смешение предлогов после прилагательного certain: под влиянием русской модели «уверен в» учащийся может выбрать in.,REALEC
+concerned about,concerned,about ,prepositions,adjective_preposition,statistics,with,preposition_error,Teachers are concerned with the low results of the final test.,Teachers are concerned about the low results of the final test.,Смешение моделей concerned about и concerned with: здесь требуется значение беспокойства по поводу проблемы.,REALEC
+concerned for,concerned,for,prepositions,adjective_preposition,statistics,of,preposition_error,She was concerned of her friend after hearing the bad news.,She was concerned for her friend after hearing the bad news.,Неверный выбор предлога после прилагательного concerned: в значении беспокойства за человека требуется for.,REALEC
+confident of,confident,of,prepositions,adjective_preposition,statistics,in,preposition_error,He was confident in his success after months of hard training.,He was confident of his success after months of hard training.,Смешение предлогов после прилагательного confident: под влиянием русской модели «уверен в успехе» учащийся может выбрать in.,REALEC
+confident of,confident,of,prepositions,adjective_preposition,statistics,for,preposition_error,The team was confident for victory before the final match.,The team was confident of victory before the final match.,Неверный выбор предлога после прилагательного confident: в данной модели требуется of.,REALEC
+confident аbout,confident,about,prepositions,adjective_preposition,statistics,with,preposition_error,She felt confident with her plans for the future.,She felt confident about her plans for the future.,Смешение моделей confident about и конструкций с with: здесь требуется значение уверенности насчёт ситуации или плана.,REALEC
+confident аbout,confident,about,prepositions,adjective_preposition,statistics,in,preposition_error,I am confident in my decision to study abroad.,I am confident about my decision to study abroad.,Смешение предлогов после прилагательного confident: под влиянием русской модели «уверен в решении» учащийся может выбрать in.,REALEC
+conscious of,conscious,of,prepositions,adjective_preposition,statistics,about,preposition_error,Many teenagers are not conscious about the risks of sharing personal information online.,Many teenagers are not conscious of the risks of sharing personal information online.,Смешение предлогов после прилагательного conscious: в значении «осознающий что-либо» требуется of.,REALEC
+crazy about,crazy,about,prepositions,adjective_preposition,statistics,of,preposition_error,My younger brother is crazy of computer games and plays them every evening.,My younger brother is crazy about computer games and plays them every evening.,Смешение предлогов после прилагательного crazy: под влиянием русской модели «без ума от» учащийся может выбрать of.,REALEC
+crazy about,crazy,about,prepositions,adjective_preposition,statistics,on,preposition_error,She is crazy on music and listens to it all day.,She is crazy about music and listens to it all day.,Смешение предлогов после прилагательного crazy: под влиянием русской модели «помешан на» учащийся может выбрать on.,REALEC
+curious about,curious,about,prepositions,adjective_preposition,statistics,of,preposition_error,Young children are often curious of everything around them.,Young children are often curious about everything around them.,Смешение предлогов после прилагательного curious: в значении интереса к чему-либо требуется about.,REALEC
+curious about,curious,about,prepositions,adjective_preposition,statistics,in,preposition_error,Many students are curious in different cultures and traditions.,Many students are curious about different cultures and traditions.,Смешение моделей curious about и interested in.,REALEC
+delighted with,delighted,with,prepositions,adjective_preposition,statistics,of,preposition_error,She was delighted of the present she received from her friends.,She was delighted with the present she received from her friends.,Неверный выбор предлога после прилагательного delighted: в значении «довольный чем-либо» требуется with.,REALEC
+delighted with,delighted,with,prepositions,adjective_preposition,statistics,from,preposition_error,The teacher was delighted from the students’ progress.,The teacher was delighted with the students’ progress.,Смешение предлогов после прилагательного delighted: под влиянием русской модели «рад от» учащийся может выбрать from.,REALEC
+dependent on,dependent,on,prepositions,adjective_preposition,statistics,from,preposition_error,Many teenagers are dependent from their parents financially.,Many teenagers are dependent on their parents financially.,Смешение предлогов после прилагательного dependent: под влиянием русской модели «зависимый от» учащийся может выбрать from.,REALEC
+dependent on,dependent,on,prepositions,adjective_preposition,statistics,of,preposition_error,The result is dependent of many different factors.,The result is dependent on many different factors.,Неверный выбор предлога после прилагательного dependent: в значении зависимости требуется on.,REALEC
+disappointed with,disappointed,with,prepositions,adjective_preposition,statistics,in,preposition_error,I was disappointed in the result of the competition.,I was disappointed with the result of the competition.,"Смешение моделей disappointed with something и disappointed in somebody: здесь речь идёт о результате, поэтому требуется with.",REALEC
+disappointed with,disappointed,with,prepositions,adjective_preposition,statistics,about,preposition_error,The teacher was disappointed about my answer in the test.,The teacher was disappointed with my answer in the test.,Смешение моделей disappointed with и disappointed about: в данной модели справочника проверяется управление with.,REALEC
+engaged to sb,engaged,to,prepositions,adjective_preposition,statistics,with,preposition_error,She is engaged with a young doctor from Moscow.,She is engaged to a young doctor from Moscow.,Смешение моделей engaged to somebody и engaged with somebody: в значении помолвки требуется предлог to.,REALEC
+enthusiastic about,enthusiastic,about,prepositions,adjective_preposition,statistics,in,preposition_error,Many students are enthusiastic in learning foreign languages.,Many students are enthusiastic about learning foreign languages.,Смешение предлогов после прилагательного enthusiastic: под влиянием русской модели «заинтересован в / увлечён в» учащийся может выбрать in.,REALEC
+enthusiastic about,enthusiastic,about,prepositions,adjective_preposition,statistics,for,preposition_error,She was enthusiastic for the new school project.,She was enthusiastic about the new school project.,Неверный выбор предлога после прилагательного enthusiastic: в значении энтузиазма по поводу чего-либо требуется about.,REALEC
+excellent at,excellent ,at,prepositions,adjective_preposition,statistics,in,preposition_error,She is excellent in English and always gets high marks.,She is excellent at English and always gets high marks.,Смешение предлогов после прилагательного excellent: под влиянием русской модели «хорош/отличен в чём-либо» учащийся может выбрать in.,REALEC
+excited about,excited ,about,prepositions,adjective_preposition,statistics,of,preposition_error,She was excited of the idea of studying abroad.,She was excited about the idea of studying abroad.,Неверный выбор предлога после прилагательного excited.,REALEC
+excited about,excited ,about,prepositions,adjective_preposition,statistics,with,preposition_error,Many students were excited with the new project.,Many students were excited about the new project.,"Смешение управления excited about с другими моделями прилагательных, которые употребляются с with.",REALEC
+familiar to sb,familiar ,to,prepositions,adjective_preposition,statistics,for,preposition_error,This situation is familiar for many students before exams.,This situation is familiar to many students before exams.,Смешение предлогов после прилагательного familiar: под влиянием русской модели «знакомый для кого-либо» учащийся может выбрать for.,REALEC
+famous for,famous ,for,prepositions,adjective_preposition,statistics,with,preposition_error,London is famous with its museums and historical buildings.,London is famous for its museums and historical buildings.,Смешение предлогов после прилагательного famous: под влиянием русской модели «известен своими» учащийся может выбрать with.,REALEC
+famous for,famous ,for,prepositions,adjective_preposition,statistics,of,preposition_error,This writer is famous of his novels about school life.,This writer is famous for his novels about school life.,Неверный выбор предлога после прилагательного famous: в значении «известный чем-либо» требуется for.,REALEC
+fed up with,fed up ,with,prepositions,adjective_preposition,statistics,from,preposition_error,I am fed up from doing the same homework every day.,I am fed up with doing the same homework every day.,Смешение предлогов после выражения fed up: под влиянием русской модели «устал от» учащийся может выбрать from.,REALEC
+fed up with,fed up ,with,prepositions,adjective_preposition,statistics,of,preposition_error,Many students are fed up of preparing for tests every week.,Many students are fed up with preparing for tests every week.,Смешение модели fed up with и разговорного варианта fed up of; в учебной модели закрепляется with.,REALEC
+fond of,fond ,of,prepositions,adjective_preposition,statistics,with,preposition_error,She is fond with animals and wants to become a vet.,She is fond of animals and wants to become a vet.,Неверный выбор предлога после прилагательного fond: в значении увлечения или привязанности требуется of.,REALEC
+frightened of,frightened,of,prepositions,adjective_preposition,statistics,from,preposition_error,Many children are frightened from big dogs in the street.,Many children are frightened of big dogs in the street.,Смешение предлогов после прилагательного frightened: под влиянием русской модели «бояться / быть испуганным от» учащийся может выбрать from.,REALEC
+full of,full,of,prepositions,adjective_preposition,statistics,with,preposition_error,The classroom was full with students before the lesson started.,The classroom was full of students before the lesson started.,Смешение предлогов после прилагательного full: под влиянием русской модели «полный чем-либо» учащийся может выбрать with.,REALEC
+good at sth,good,at,prepositions,adjective_preposition,statistics,in,preposition_error,"I am good in English, but I still need to practise speaking.","I am good at English, but I still need to practise speaking.",Смешение предлогов после прилагательного good: под влиянием русской модели «хорош в чём-либо» учащийся может выбрать in.,REALEC
+good at sth,good,at,prepositions,adjective_preposition,statistics,with,preposition_error,She is good with solving difficult problems quickly.,She is good at solving difficult problems quickly.,"Смешение моделей good at something и good with something: здесь речь идёт о виде деятельности, поэтому требуется at.",REALEC
+good for sb/sth,good,for,prepositions,adjective_preposition,statistics,to,preposition_error,Regular exercise is good to your health and helps you feel better.,Regular exercise is good for your health and helps you feel better.,мешение предлогов после прилагательного good: под влиянием русской модели «хорошо для / полезно для» учащийся может выбрать to.,REALEC
+happy for sb,happy,for,prepositions,adjective_preposition,statistics,about,preposition_error,I am really happy about my friend because she passed her final exam.,I am really happy for my friend because she passed her final exam.,"Смешение моделей happy for somebody и happy about something: здесь речь идёт о человеке, за которого испытывают радость.",REALEC
+happy for sb,happy,for,prepositions,adjective_preposition,statistics,with,preposition_error,She was happy with her brother when he won the competition.,She was happy for her brother when he won the competition.,Смешение моделей happy for somebody и happy with something/somebody: в данном контексте требуется значение «рад за кого-либо».,REALEC
+harmful to,harmful,to,prepositions,adjective_preposition,statistics,for,preposition_error,Fast food can be harmful for teenagers’ health if they eat it every day.,Fast food can be harmful to teenagers’ health if they eat it every day.,Смешение предлогов после прилагательного harmful: под влиянием русской модели «вредный для» учащийся может выбрать for.,REALEC
+harmful to,harmful,to,prepositions,adjective_preposition,statistics,on,preposition_error,Air pollution is harmful on the environment and people’s health.,Air pollution is harmful to the environment and people’s health.,Неверный выбор предлога после прилагательного harmful: в значении вредного воздействия требуется to.,REALEC
+hopeless at sth,hopeless,at,prepositions,adjective_preposition,statistics,in,preposition_error,"I am hopeless in maths, so I always ask my friend for help.","I am hopeless at maths, so I always ask my friend for help.",Смешение предлогов после прилагательного hopeless: под влиянием русской модели «безнадёжен в чём-либо» учащийся может выбрать in.,REALEC
+identical to,identical,to,prepositions,adjective_preposition,statistics,as,preposition_error,My answer was identical as my friend’s answer.,My answer was identical to my friend’s answer.,Смешение модели identical to с конструкцией the same as: после identical требуется предлог to.,REALEC
+independent of,independent,of,prepositions,adjective_preposition,statistics,from,preposition_error,Young people want to become independent from their parents as soon as possible.,Young people want to become independent of their parents as soon as possible.,Смешение предлогов после прилагательного independent: под влиянием русской модели «независимый от» учащийся может выбрать from.,REALEC
+independent of,independent,of,prepositions,adjective_preposition,statistics,on,preposition_error,The final result should be independent on personal opinions.,The final result should be independent of personal opinions.,Смешение моделей independent of и dependent on: в значении независимости требуется of.,REALEC
+inferior to,inferior,to,prepositions,adjective_preposition,statistics,than,preposition_error,This translation is inferior than the original text.,This translation is to than the original text.,Смешение модели inferior to с конструкциями сравнительной степени типа better than / worse than.,REALEC
+inferior to,inferior,to,prepositions,adjective_preposition,statistics,from,preposition_error,The new version of the app is inferior from the previous one.,The new version of the app is inferior to the previous one.,Неверный выбор предлога после прилагательного inferior: в значении сравнения требуется to.,REALEC
+interested in,interested,in,prepositions,adjective_preposition,statistics,on,preposition_error,Many students are interested on modern technology and computer games.,Many students are interested in modern technology and computer games.,Смешение предлогов после прилагательного interested: под влиянием русской модели «интересоваться темой / по теме» учащийся может выбрать on.,REALEC
+interested in,interested,in,prepositions,adjective_preposition,statistics,of,preposition_error,He has always been interested of history and old buildings.,He has always been interested in history and old buildings.,Неверный выбор предлога после прилагательного interested: в значении интереса к чему-либо требуется in.,REALEC
+jealous of,jealous,of,prepositions,adjective_preposition,statistics,to,preposition_error,She was jealous to her friend because she got a better mark.,She was jealous of her friend because she got a better mark.,Смешение предлогов после прилагательного jealous: под влиянием русской модели «завидовать кому-либо» учащийся может выбрать to.,REALEC
+kind to sb,kind,to,prepositions,adjective_preposition,statistics,with,preposition_error,Our teacher is always kind with students and tries to help them.,Our teacher is always kind to students and tries to help them.,Смешение предлогов после прилагательного kind: по аналогии с выражениями friendly with или good with учащийся может выбрать with.,REALEC
+keen on (doing) sth,keen,on,prepositions,adjective_preposition,statistics,in,preposition_error,Many teenagers are keen in playing computer games after school.,Many teenagers are keen on playing computer games after school.,Смешение предлогов после прилагательного keen: под влиянием русской модели «заинтересован в» учащийся может выбрать in.,REALEC
+keen on (doing) sth,keen,on,prepositions,adjective_preposition,statistics,of,preposition_error,My brother is keen of football and watches every match.,My brother is keen on football and watches every match.,Неверный выбор предлога после прилагательного keen: в значении увлечения требуется on.,REALEC
+known as,known,as,prepositions,adjective_preposition,statistics,like,preposition_error,London is known like one of the most multicultural cities in Europe.,London is known as one of the most multicultural cities in Europe.,Смешение модели known as с русской моделью «известен как»: учащийся может выбрать like вместо as.,REALEC
+known as,known,as,prepositions,adjective_preposition,statistics,for,preposition_error,This scientist is known for one of the founders of modern physics.,This scientist is known as one of the founders of modern physics.,"Смешение моделей known as и known for: здесь требуется значение «известный как», а не «известный благодаря чему-либо».",REALEC
+mean to sb,mean,to,prepositions,adjective_preposition,statistics,for,preposition_error,This friendship means a lot for me because we have known each other for years.,This friendship means a lot to me because we have known each other for years.,Смешение предлогов после глагола mean: под влиянием русской модели «значить для кого-либо» учащийся может выбрать for.,REALEC
+mean to sb,mean,to,prepositions,adjective_preposition,statistics,about,preposition_error,Her support means a lot about my family during difficult times.,Her support means a lot to my family during difficult times.,Неверный выбор предлога после глагола mean: в значении «иметь значение для кого-либо» требуется to.,REALEC
+nervous about,nervous,about,prepositions,adjective_preposition,statistics,of,preposition_error,She was nervous of the interview and could not sleep well.,She was nervous about the interview and could not sleep well.,Неверный выбор предлога после прилагательного nervous: в значении тревоги по поводу события требуется about.,REALEC
+patient with,patient,with,prepositions,adjective_preposition,statistics,to,preposition_error,A good teacher should be patient to students who make mistakes.,A good teacher should be patient with students who make mistakes.,Смешение предлогов после прилагательного patient: под влиянием русской модели «терпелив к кому-либо» учащийся может выбрать to.,REALEC
+patient with,patient,with,prepositions,adjective_preposition,statistics,for,preposition_error,Parents should be patient for young children when they learn new things.,Parents should be patient with young children when they learn new things.,Неверный выбор предлога после прилагательного patient: в значении отношения к человеку требуется with.,REALEC
+pleased with,pleased,with,prepositions,adjective_preposition,statistics,of,preposition_error,The teacher was pleased of my answer in the lesson.,The teacher was pleased with my answer in the lesson.,Неверный выбор предлога после прилагательного pleased: в значении «довольный чем-либо» требуется with.,REALEC
+popular with,popular,with,prepositions,adjective_preposition,statistics,among,preposition_error,This social network is very popular among teenagers in my school.,This social network is very popular with teenagers in my school.,Смешение моделей popular with и popular among: в учебной модели справочника закрепляется popular with.,REALEC
+popular with,popular,with,prepositions,adjective_preposition,statistics,for,preposition_error,Online games are popular for young people because they are easy to play.,Online games are popular with young people because they are easy to play.,Смешение значения популярности среди группы и причины популярности: после popular с группой людей требуется with.,REALEC
+proud of,proud,of,prepositions,adjective_preposition,statistics,for,preposition_error,My parents are proud for my exam results.,My parents are proud of my exam results.,Смешение предлогов после прилагательного proud: под влиянием русской модели «гордиться за кого-либо / что-либо» учащийся может выбрать for.,REALEC
+ready for,ready,for,prepositions,adjective_preposition,statistics,to,preposition_error,I am ready to the final exam because I have revised all the topics.,I am ready for the final exam because I have revised all the topics.,Смешение модели ready for + noun и конструкции ready to + verb.,REALEC
+ready for,ready,for,prepositions,adjective_preposition,statistics,on,preposition_error,She was ready on the school trip and packed her bag in advance.,She was ready for the school trip and packed her bag in advance.,Смешение предлогов после прилагательного ready: под влиянием русской модели «готов к / на мероприятие» учащийся может выбрать on.,REALEC
+relevant to,relevant,to,prepositions,adjective_preposition,statistics,with,preposition_error,This example is relevant with the topic of our discussion.,This example is relevant to the topic of our discussion.,Смешение предлогов после прилагательного relevant: под влиянием русской модели «связанный с темой» учащийся может выбрать with.,REALEC
+relevant to,relevant,to,prepositions,adjective_preposition,statistics,for,preposition_error,The information was relevant for the main problem of the article.,The information was relevant to the main problem of the article.,Смешение моделей relevant to и relevant for: в данной модели требуется значение отношения к теме или проблеме.,REALEC
+respected for,respected,for,prepositions,adjective_preposition,statistics,of,preposition_error,The teacher was respected of his patience and kindness.,The teacher was respected for his patience and kindness.,Неверный выбор предлога после respected: в значении причины уважения требуется for.,REALEC
+respected for,respected,for,prepositions,adjective_preposition,statistics,with,preposition_error,She is respected with her hard work and responsibility.,She is respected for her hard work and responsibility.,"Смешение управления respected for с другими моделями, где используется with.",REALEC
+responsible for,responsible,for,prepositions,adjective_preposition,statistics,of,preposition_error,Students should be responsible of their own learning.,Students should be responsible fortheir own learning.,Смешение предлогов после прилагательного responsible: под влиянием русской модели «ответственный за» учащийся может выбрать of.,REALEC
+responsible for,responsible,for,prepositions,adjective_preposition,statistics,about,preposition_error,The teacher is responsible about organizing the school trip.,The teacher is responsible for organizing the school trip.,"Смешение модели responsible for с прилагательными, которые употребляются с about.",REALEC
+serious about,serious,about,prepositions,adjective_preposition,statistics,in,preposition_error,Many students are serious in their preparation for the final exams.,Many students are serious about their preparation for the final exams.,Смешение предлогов после прилагательного serious: под влиянием русской модели «серьёзен в чём-либо» учащийся может выбрать in.,REALEC
+serious about,serious,about,prepositions,adjective_preposition,,with,preposition_error,She is very serious with her future career and studies every day.,She is very serious about her future career and studies every day.,"Смешение управления serious about с другими моделями прилагательных, которые употребляются с with.",REALEC
+shocked by,shocked,by ,prepositions,adjective_preposition,statistics,from,preposition_error,I was shocked from the news about the accident.,I was shocked by the news about the accident.,Смешение предлогов после прилагательного shocked: под влиянием русской модели «потрясён от чего-либо» учащийся может выбрать from.,REALEC
+shocked by,shocked,by,prepositions,adjective_preposition,statistics,of,preposition_error,She was shocked of the story she heard from her friend.,She was shocked by the story she heard from her friend.,Неверный выбор предлога после прилагательного shocked: для указания причины потрясения в данной модели требуется by.,REALEC
+shocked at,shocked,at,prepositions,adjective_preposition,statistics,on,preposition_error,Many people were shocked on the result of the experiment.,Many people were shocked at the result of the experiment.,Неверный выбор предлога после прилагательного shocked: для реакции на факт или результат в данной модели требуется at.,REALEC
+shocked at,shocked,at,prepositions,adjective_preposition,statistics,about,preposition_error,The teacher was shocked about the students’ behaviour during the lesson.,The teacher was shocked at the students’ behaviour during the lesson.,"Смешение моделей shocked at и прилагательных, которые употребляются с about.",REALEC
+similar to,similar,to,prepositions,adjective_preposition,statistics,as,preposition_error,This situation is similar as the problem we discussed yesterday.,This situation is similar to the problem we discussed yesterday.,Смешение модели similar to с конструкцией the same as.,REALEC
+similar to,similar,to,prepositions,adjective_preposition,statistics,with,preposition_error,My answer was similar with my friend’s answer.,My answer was similar to my friend’s answer.,Смешение предлогов после прилагательного similar: под влиянием русской модели «схожий с» учащийся может выбрать with.,REALEC
+sorry for sb,sorry,for,prepositions,adjective_preposition,statistics,to,preposition_error,She felt sorry to the old man who had lost his dog.,She felt sorry for the old man who had lost his dog.,Смешение конструкции say sorry to somebody и модели feel sorry for somebody.,REALEC
+surprised at,surprised,at ,prepositions,adjective_preposition,statistics,on,preposition_error,The teacher was surprised on the result of the test.,The teacher was surprised at the result of the test.,Неверный выбор предлога после surprised: для реакции на факт или результат в данной модели требуется at.,REALEC
+surprised by,surprised,by,prepositions,adjective_preposition,statistics,from,preposition_error,was surprised from the sudden change in his behaviour.,was surprised by the sudden change in his behaviour.,Смешение предлогов после surprised: под влиянием русской модели «удивлён от чего-либо» учащийся может выбрать from.,REALEC
+surprised by,surprised,by,prepositions,adjective_preposition,statistics,of,preposition_error,She was surprised of the news about the competition.,She was surprised by the news about the competition.,Неверный выбор предлога после surprised: для указания причины удивления в данной модели требуется by.,REALEC
+terrible at,terrible,at,prepositions,adjective_preposition,statistics,in,preposition_error,"I am terrible in maths, so I always ask my friend for help.","I am terrible at maths, so I always ask my friend for help.",Смешение предлогов после прилагательного terrible: под влиянием русской модели «плох в чём-либо» учащийся может выбрать in.,REALEC
+terrible at,terrible,at,prepositions,adjective_preposition,statistics,with,preposition_error,She is terrible with remembering dates and names.,She is terrible at remembering dates and names.,"Смешение моделей terrible at something и конструкций с with: здесь речь идёт о виде деятельности, поэтому требуется at.",REALEC
+terrified of,terrified,of,prepositions,adjective_preposition,statistics,from,preposition_error,Many children are terrified from big dogs in the street.,Many children are terrified of big dogs in the street.,Смешение предлогов после прилагательного terrified: под влиянием русской модели «бояться / быть испуганным от» учащийся может выбрать from.,REALEC
+terrified of,terrified,of,prepositions,adjective_preposition,statistics,about,preposition_error,She was terrified about speaking in front of the whole class.,She was terrified of speaking in front of the whole class.,Смешение моделей terrified of и worried/anxious about: в значении сильного страха требуется of.,REALEC
+tired of,tired,of,prepositions,adjective_preposition,statistics,from,preposition_error,I am tired from doing the same homework every day.,I am tired of doing the same homework every day.,Смешение предлогов после прилагательного tired: под влиянием русской модели «устал от чего-либо» учащийся может выбрать from.,REALEC
+tired of,tired,of,prepositions,adjective_preposition,statistics,with,preposition_error,She was tired with listening to the same explanation again and again.,She was tired of listening to the same explanation again and again.,Неверный выбор предлога после прилагательного tired: в значении «надоело / устал от» требуется of.,REALEC
+typical of,typical,of,prepositions,adjective_preposition,statistics,for,preposition_error,This mistake is typical for many Russian students learning English.,This mistake is typical of many Russian students learning English.,Смешение предлогов после прилагательного typical: под влиянием русской модели «типичный для» учащийся может выбрать for.,REALEC
+accuse sb of,accuse,of,prepositions,verb_preposition,statistics,in,preposition_error,The teacher accused the student in cheating during the test.,The teacher accused the student of cheating during the test.,Смешение предлогов после глагола accuse: под влиянием русской модели «обвинять в» учащийся может выбрать in.,REALEC
+accuse sb of,accuse,of,prepositions,verb_preposition,statistics,for,preposition_error,They accused him for breaking the school rules.,They accused him of breaking the school rules.,Смешение модели accuse somebody of something с выражением blame somebody for something.,REALEC
+advise sb on sth,advise,on ,prepositions,verb_preposition,statistics,in,preposition_error,The teacher advised us in how to prepare for the English exam.,The teacher advised us on how to prepare for the English exam.,Смешение предлогов после глагола advise: под влиянием русской модели «советовать по / в вопросе» учащийся может выбрать in.,REALEC
+advise sb on sth,advise,on ,prepositions,verb_preposition,statistics,for,preposition_error,The consultant advised students for choosing a university.,The consultant advised students on choosing a university.,Неверный выбор предлога после глагола advise: в значении консультации по вопросу требуется on.,REALEC
+advise sb about sth,advise,about,prepositions,verb_preposition,statistics,in,preposition_error,The doctor advised her in a healthy diet.,The doctor advised her about a healthy diet.,Смешение предлогов после глагола advise: в данной модели требуется about.,REALEC
+agree with sb,agree,with,prepositions,verb_preposition,statistics,to,preposition_error,I agree to my teacher because her explanation is very clear.,I agree with my teacher because her explanation is very clear.,"Смешение моделей agree with somebody и agree to something: здесь речь идёт о согласии с человеком, а не о принятии предложения или условий.",REALEC
+agree with sb,agree,with,prepositions,verb_preposition,statistics,about,preposition_error,I agree about my friend on this question.,I agree with my friend on this question.,"Неверный выбор предлога после agree: при указании лица, с которым совпадает мнение, требуется with.",REALEC
+disagree with sb,disagree,with,prepositions,verb_preposition,statistics,to,preposition_error,I disagree to my parents about the choice of university.,I disagree with my parents about the choice of university.,Смешение предлогов после disagree: при несогласии с человеком требуется with.,REALEC
+disagree with sb,disagree,with,prepositions,verb_preposition,statistics,on,preposition_error,She disagreed on her classmates during the discussion.,She disagreed with her classmates during the discussion.,Смешение модели disagree with somebody и выражений типа agree/disagree on a topic.,REALEC
+apologise to sb for sth,apologise to,for,prepositions,verb_preposition,statistics,about,preposition_error,She apologised to her friend about her rude words.,She apologised to her friend for her rude words.,Смешение управления apologise for something с моделями глаголов речи типа talk about something.,REALEC
+apply to sb for sth,apply to,for,prepositions,verb_preposition,statistics,to,preposition_error,She applied to the university to a scholarship.,She applied to the university for a scholarship.,"Смешение адресата обращения и цели обращения: организация требует предлога to, а цель заявления — for.",REALEC
+approve of,approve,of,prepositions,verb_preposition,statistics,with,preposition_error,My parents approve with my decision to study abroad.,My parents approve of my decision to study abroad.,Смешение модели approve of с выражением agree with: после approve в значении одобрения требуется of.,REALEC
+approve of,approve,of,prepositions,verb_preposition,statistics,about,preposition_error,The teacher approved about our plan for the school project.,The teacher approved of our plan for the school project.,Неверный выбор предлога после глагола approve: в значении одобрения требуется of.,REALEC
+disapprove of,disapprove,of,prepositions,verb_preposition,statistics,with,preposition_error,Many teachers disapprove with using phones during lessons.,Many teachers disapprove of using phones during lessons.,Смешение модели disapprove of с выражением disagree with: после disapprove требуется of.,REALEC
+disapprove of,disapprove,of,prepositions,verb_preposition,statistics,for,preposition_error,His parents disapproved for his behaviour at school.,His parents disapproved of his behaviour at school.,Неверный выбор предлога после глагола disapprove: в значении неодобрения требуется of.,REALEC
+arrive at а building,arrive,at,prepositions,verb_preposition,statistics,to,preposition_error,We arrived to the school building early in the morning.,We arrived at the school building early in the morning.,Смешение предлогов после глагола arrive: под влиянием русской модели «прибыть в/к месту» учащийся может выбрать to,REALEC
+arrive at the hotel,arrive,at,prepositions,verb_preposition,statistics,in,preposition_error,The tourists arrived in the hotel before lunch.,The tourists arrived at the hotel before lunch.,Смешение моделей arrive at и arrive in: для здания или конкретной точки назначения требуется at.,REALEC
+arrive in а city/country,arrive,in,prepositions,verb_preposition,statistics,to,preposition_error,We arrived to London late in the evening.,We arrived in London late in the evening.,Смешение предлогов после глагола arrive: под влиянием русской модели «приехать в город» учащийся может выбрать to.,REALEC
+arrive in а city/country,arrive,in,prepositions,verb_preposition,statistics,at,preposition_error,They arrived at France after a long flight.,They arrived in France after a long flight.,Смешение моделей arrive at и arrive in: для страны или города требуется in.,REALEC
+associate with,associate,with,prepositions,verb_preposition,statistics,to,preposition_error,Many people associate London to red buses and old buildings.,Many people associate London with red buses and old buildings.,Смешение предлогов после глагола associate: под влиянием русской модели «ассоциировать с / относить к» учащийся может выбрать to,REALEC
+beg for,beg,for,prepositions,verb_preposition,statistics,about,preposition_error,The children begged about help when they got lost in the forest.,The children begged for help when they got lost in the forest.,Неверный выбор предлога после глагола beg: в значении просьбы о чём-либо требуется for.,REALEC
+саrе about sb/sth,care,about,prepositions,verb_preposition,statistics,for,preposition_error,Many teenagers care for the environment and try to use less plastic.,Many teenagers care about  the environment and try to use less plastic.,Смешение моделей care about something и care for somebody: здесь требуется значение «считать важным / беспокоиться о проблеме».,REALEC
+саrе about sb/sth,care,about,prepositions,verb_preposition,statistics,of,preposition_error,Good students care of their future and work hard at school.,Good students care about their future and work hard at school.,Смешение модели care about с выражением take care of: после care в значении «придавать значение» требуется about.,REALEC
+саrе for sb/sth,care,for,prepositions,verb_preposition,statistics,about,preposition_error,Nurses care about elderly people in hospitals and nursing homes.,Nurses care for elderly people in hospitals and nursing homes.,Смешение моделей care for somebody и care about something: здесь требуется значение ухода за человеком.,REALEC
+саrе for sb/sth,care,for,prepositions,verb_preposition,statistics,of,preposition_error,She cares of her younger brother when her parents are at work.,She cares for her younger brother when her parents are at work.,Смешение модели care for с выражением take care of.,REALEC
+collaborate with,collaborate,with,prepositions,verb_preposition,statistics,to,preposition_error,Our school collaborated to a local museum during the history project.,Our school collaborated with a local museum during the history project.,Смешение предлогов после глагола collaborate: под влиянием русской модели «сотрудничать с кем-либо» учащийся может выбрать to.,REALEC
+combine with,combine,with,prepositions,verb_preposition,statistics,to,preposition_error,Online learning can be combined to traditional classroom lessons.,Online learning can be combined with traditional classroom lessons.,Смешение предлогов после глагола combine: под влиянием русской модели «сочетать с / объединять с» учащийся может выбрать to.,REALEC
+communicate with,communicate,with,prepositions,verb_preposition,statistics,to,preposition_error,Teenagers often communicate to their friends through social networks.,Teenagers often communicate with their friends through social networks.,Смешение предлогов после глагола communicate: под влиянием русской модели «общаться с кем-либо» учащийся может выбрать to.,REALEC
+congratulate sb on sth,congratulate,on,prepositions,verb_preposition,statistics,with,preposition_error,I congratulated my friend with passing the English exam.,I congratulated my friend on passing the English exam.,Смешение предлогов после глагола congratulate: под влиянием русской модели «поздравить с чем-либо» учащийся может выбрать with.,REALEC
+congratulate sb on sth,congratulate,on,prepositions,verb_preposition,statistics,for,preposition_error,The teacher congratulated the students for their excellent results.,The teacher congratulated the students on their excellent results.,"Смешение модели congratulate somebody on something с конструкциями, где for указывает причину действия.",REALEC
+connect to,connect,to ,prepositions,verb_preposition,statistics,with,preposition_error,I could not connect my laptop with the school Wi-Fi.,I could not connect my laptop to the school Wi-Fi.,Смешение моделей connect to и connect with: при подключении к сети или устройству требуется to.,REALEC
+connect with,connect,with,prepositions,verb_preposition,statistics,to,preposition_error,Many students find it difficult to connect to people from other cultures.,Many students find it difficult to connect with people from other cultures.,Смешение моделей connect with somebody и connect to a system: здесь речь идёт об установлении личной или социальной связи.,REALEC
+consist of,consist,of,prepositions,verb_preposition,statistics,from,preposition_error,The course consists from five main modules and a final test.,The course consists of five main modules and a final test.,Смешение предлогов после глагола consist: под влиянием русской модели «состоять из» учащийся может выбрать from.,REALEC
+consist of,consist,of,prepositions,verb_preposition,statistics,with,preposition_error,The exam consists with different types of tasks.,The exam consists of different types of tasks.,Неверный выбор предлога после глагола consist: в значении состава требуется of.,REALEC
+contrast with,contrast,with,prepositions,verb_preposition,statistics,to,preposition_error,The new school building contrasts to the old houses around it.,The new school building contrasts with the old houses around it.,Смешение модели contrast with с выражением in contrast to: после глагола contrast в значении сопоставления требуется with.,REALEC
+contrast with,contrast,with,prepositions,verb_preposition,statistics,from,preposition_error,His calm reaction contrasted from the panic of the other students.,His calm reaction contrasted with the panic of the other students.,Смешение предлогов после глагола contrast: под влиянием русской модели «отличаться от» учащийся может выбрать from.,REALEC
+cooperate with sb,cooperate,with,prepositions,verb_preposition,statistics,to,preposition_error,Students should cooperate to their classmates during group projects.,Students should cooperate with their classmates during group projects.,Смешение предлогов после глагола cooperate: под влиянием русской модели «сотрудничать с кем-либо» учащийся может выбрать to.,REALEC
+cooperate with sb,cooperate,with,prepositions,verb_preposition,statistics,in,preposition_error,Our school cooperates in foreign teachers on international programmes.,Our school cooperates with foreign teachers on international programmes.,Смешение модели cooperate with somebody и конструкции cooperate in a project/activity.,REALEC
+соре with,cope,with,prepositions,verb_preposition,statistics,of,preposition_error,Many students find it difficult to cope of exam stress.,Many students find it difficult to cope with exam stress.,Неверный выбор предлога после глагола cope: в значении «справляться с чем-либо» требуется with.,REALEC
+deal with,deal,with,prepositions,verb_preposition,statistics,of,preposition_error,Many students do not know how to deal of exam stress.,Many students do not know how to deal with exam stress.,Неверный выбор предлога после глагола deal: в значении «справляться с чем-либо / иметь дело с чем-либо» требуется with.,REALEC
+decide on,decide,on,prepositions,verb_preposition,statistics,with,preposition_error,They decided with the best option after a long discussion.,They decided on the best option after a long discussion.,Смешение модели decide on с выражениями типа discuss with / agree with.,REALEC
+decide on,decide,on,prepositions,verb_preposition,statistics,about,preposition_error,We need to decide about the topic for our school project.,We need to decide on the topic for our school project.,Смешение моделей decide on и decide about: в значении выбора конкретного варианта употребляется on.,REALEC
+depend on,depend,on,prepositions,verb_preposition,statistics,from,preposition_error,The success of the project depends from good teamwork.,The success of the project depends on good teamwork.,Смешение предлогов после глагола depend: под влиянием русской модели «зависеть от» учащийся может выбрать from.,REALEC
+describe sth to sb,describe,to,prepositions,verb_preposition,statistics,for,preposition_error,The student described the picture for the examiner in detail.,The student described the picture to the examiner in detail.,Смешение предлогов после глагола describe: под влиянием русской модели «описать для кого-либо» учащийся может выбрать for вместо предлога адресата to.,REALEC
+differ from,differ,from,prepositions,verb_preposition,statistics,with,preposition_error,This method differs with the traditional approach in several ways.,This method differs from the traditional approach in several ways.,Смешение модели differ from с выражением disagree with: после differ в значении различия требуется from.,REALEC
+differ from,differ,from,prepositions,verb_preposition,statistics,to,preposition_error,My answer differs to the example in the textbook.,My answer differs from the example in the textbook.,"Смешение модели differ from с прилагательными сравнения, например similar to или identical to.",REALEC
+divide sth into,divide,into,prepositions,verb_preposition,statistics,on,preposition_error,The teacher divided the class on three groups for the project.,The teacher divided the class into three groups for the project.,Смешение предлогов после глагола divide: под влиянием русской модели «делить на группы» учащийся может выбрать on.,REALEC
+fight with,fight,with,prepositions,verb_preposition,statistics,to,preposition_error,"She does not want to fight to her classmates, even when she disagrees with them.","She does not want to fight with her classmates, even when she disagrees with them.",Смешение модели fight with somebody и конструкции fight to + verb.,REALEC
+forget about,forget,about,prepositions,verb_preposition,statistics,of,preposition_error,I completely forgot of the English homework and did not bring my notebook.,I completely forgot about the English homework and did not bring my notebook.,Смешение предлогов после глагола forget: под влиянием русской модели «забыть о чём-либо» учащийся может выбрать of.,REALEC
+glance at,glance,at,prepositions,verb_preposition,statistics,on,preposition_error,She glanced on the clock and realised that she was late.,She glanced at the clock and realised that she was late.,Смешение предлогов после глагола glance: под влиянием русской модели «посмотреть на» учащийся может выбрать on.,REALEC
+glance at,glance,at,prepositions,verb_preposition,statistics,to,preposition_error,He glanced to the teacher before answering the question.,He glanced at the teacher before answering the question.,Неверный выбор предлога после глагола glance: в значении «бросить взгляд на кого-либо» требуется at.,REALEC
+head for,head,for,prepositions,verb_preposition,statistics,to,preposition_error,We were heading to the train station because our train was leaving soon.,We were heading for the train station because our train was leaving soon.,Смешение моделей head for и go to: в устойчивой модели head for требуется предлог for.,REALEC
+head towards,head,towards,prepositions,verb_preposition,statistics,for,preposition_error,"She headed for the door slowly, trying not to wake anyone.","She headed towards the door slowly, trying not to wake anyone.","Смешение head for и head towards: в данном контексте подчёркивается направление движения, поэтому используется towards.",REALEC
+hear about,hear,about ,prepositions,verb_preposition,statistics,of,preposition_error,I heard of the accident on the news yesterday.,I heard about the accident on the news yesterday.,"Смешение моделей hear about и hear of: здесь речь идёт о получении информации о событии, поэтому требуется about.",REALEC
+hear of ,hear,of,prepositions,verb_preposition,statistics,about,preposition_error,Have you ever heard about this writer before?,Have you ever heard of this writer before?,"Смешение моделей hear of и hear about: здесь имеется в виду факт знакомства с именем писателя, а не получение подробной информации о нём.",REALEC
+hope for,hope,for,prepositions,verb_preposition,statistics,about,preposition_error,Many students hope about good results in their final exams.,Many students hope for good results in their final exams.,"Смешение модели hope for с глаголами, которые употребляются с about, например think about или worry about.",REALEC
+hope for,hope,for,prepositions,verb_preposition,statistics,to,preposition_error,We all hope to a better future after graduation.,We all hope for a better future after graduation.,Смешение модели hope for + noun и конструкции hope to + verb.,REALEC
+invest in,invest,in,prepositions,verb_preposition,statistics,into,preposition_error,Many companies invest into modern technology to improve their services.,Many companies invest in modern technology to improve their services.,Смешение предлогов после глагола invest: под влиянием русской модели «инвестировать во что-либо» учащийся может выбрать into.,REALEC
+invest in,invest,in,prepositions,verb_preposition,statistics,to,preposition_error,The government should invest more money to education and science.,The government should invest more money in education and science.,Неверный выбор предлога после глагола invest: в значении вложения средств требуется in.,REALEC
+invite to,invite,to,prepositions,verb_preposition,statistics,on,preposition_error,My classmates invited me on a birthday party last weekend.,My classmates invited me to a birthday party last weekend.,Смешение предлогов после глагола invite: под влиянием русской модели «пригласить на мероприятие» учащийся может выбрать on.,REALEC
+involve in,involve,in,prepositions,verb_preposition,statistics,into,preposition_error,The teacher involved the students into a new research project.,The teacher involved the students in a new research project.,Смешение предлогов после глагола involve: под влиянием русской модели «вовлекать во что-либо» учащийся может выбрать into.,REALEC
+join in,join,in,prepositions,verb_preposition,statistics,to,preposition_error,Many students wanted to join to the discussion after the lesson.,Many students wanted to join in the discussion after the lesson.,Смешение предлогов после глагола join: под влиянием русской модели «присоединиться к обсуждению» учащийся может выбрать to.,REALEC
+know about sth,know,about,prepositions,verb_preposition,statistics,of,preposition_error,"I know of this problem, but I do not understand all the details.","I know about this problem, but I do not understand all the details.","Смешение моделей know about и know of: здесь речь идёт не только о факте существования проблемы, а о знании информации о ней.",REALEC
+mean by,mean,by,prepositions,verb_preposition,statistics,with,preposition_error,What do you mean with this word in the text?,What do you mean by this word in the text?,Смешение предлогов после глагола mean: под влиянием русской модели «иметь в виду этим» учащийся может выбрать with.,REALEC
+mean by,mean,by,prepositions,verb_preposition,statistics,about,preposition_error,What did the writer mean about this phrase?,What did the writer mean by this phrase?,"Смешение модели mean by с глаголами речи и мышления, которые употребляются с about.",REALEC
+mention to,mention,to,prepositions,verb_preposition,statistics,about,preposition_error,She mentioned about the problem to the teacher after the lesson.,She mentioned to the problem to the teacher after the lesson.,Смешение модели mention something с русской моделью «упомянуть о чём-либо»: после mention объект обычно употребляется без предлога.,REALEC
+рау for,pay,for,prepositions,verb_preposition,statistics,to,preposition_error,I had to pay to the ticket before entering the museum.,I had to pay for the ticket before entering the museum.,"Смешение объекта оплаты и адресата платежа: pay to somebody обозначает получателя денег, а за предмет или услугу платят с for.",REALEC
+point to,point,to,prepositions,verb_preposition,statistics,at,preposition_error,The signs pointed at the nearest exit from the building.,The signs pointed to the nearest exit from the building.,"Смешение моделей point to и point at: здесь речь идёт о направлении/указании пути, поэтому требуется to.",REALEC
+point to,point,to,prepositions,verb_preposition,statistics,on,preposition_error,The teacher pointed on the word on the board and asked us to read it.,The teacher pointed to the word on the board and asked us to read it.,Смешение предлогов после глагола point: под влиянием русской модели «указывать на» учащийся может выбрать on.,REALEC
+point at,point,at,prepositions,verb_preposition,statistics,on,preposition_error,It is rude to point on people in the street.,It is rude to point at people in the street.,Смешение предлогов после глагола point: под влиянием русской модели «показывать на кого-либо» учащийся может выбрать on.,REALEC
+point at,point,at,prepositions,verb_preposition,statistics,to,preposition_error,The boy pointed to the picture with his finger and laughed.,The boy pointed at the picture with his finger and laughed.,Смешение моделей point at и point to: здесь подчёркивается физическое действие указания пальцем на объект.,REALEC
+prepare for,prepare,for,prepositions,verb_preposition,statistics,to,preposition_error,Many students prepare to the final exam for several months.,Many students prepare for the final exam for several months.,Смешение модели prepare for + noun и конструкции prepare to + verb.,REALEC
+prepare for,prepare,for,prepositions,verb_preposition,statistics,on,preposition_error,She prepared on the English test all weekend.,She prepared for the English test all weekend.,Смешение предлогов после глагола prepare: под влиянием русской модели «готовиться к / на» учащийся может выбрать on.,REALEC
+rely on,rely,on,prepositions,verb_preposition,statistics,to,preposition_error,Students should not rely to online translators when they write essays.,Students should not rely on online translators when they write essays.,Смешение предлогов после глагола rely: под влиянием русской модели «полагаться на» учащийся может выбрать to.,REALEC
+smile at,smile,at ,prepositions,verb_preposition,statistics,on,preposition_error,The little boy smiled on his mother when she came home.,The little boy smiled at his mother when she came home.,"Неверный выбор предлога после глагола smile: объект, которому адресована улыбка, вводится предлогом at.",REALEC
+speak with sb,speak,with,prepositions,verb_preposition,statistics,to,preposition_error,She spoke to her classmates for an hour about the school project.,She spoke with her classmates for an hour about the school project.,Смешение моделей speak with somebody и speak to somebody: здесь подчёркивается совместная беседа.,REALEC
+speak to sb,speak,to,prepositions,verb_preposition,statistics,with,preposition_error,I need to speak with the teacher after the lesson about my mark.,I need to speak to the teacher after the lesson about my mark.,Смешение моделей speak to somebody и speak with somebody: в данном контексте подчёркивается обращение к человеку.,REALEC
+spend money on sth,spend,on,prepositions,verb_preposition,statistics,for,preposition_error,Many teenagers spend too much money for computer games.,Many teenagers spend too much money on computer games.,Смешение предлогов после глагола spend: под влиянием русской модели «тратить деньги на что-либо» учащийся может выбрать for.,REALEC
+spend money on sth,spend,on,prepositions,verb_preposition,statistics,to,preposition_error,Parents often spend a lot of money to their children’s education.,Parents often spend a lot of money on their children’s education.,Неверный выбор предлога после spend money: объект траты вводится предлогом on.,REALEC
+stare at,stare,at,prepositions,verb_preposition,statistics,on,preposition_error,The boy stared on the screen for hours without saying a word.,The boy stared at the screen for hours without saying a word.,Смешение предлогов после глагола stare: под влиянием русской модели «смотреть на» учащийся может выбрать on.,REALEC
+succeed in,succeed,in,prepositions,verb_preposition,statistics,at,preposition_error,Many students want to succeed at learning English before their final exams.,Many students want to succeed in learning English before their final exams.,Смешение предлогов после глагола succeed: в учебной модели в значении достижения успеха в деятельности употребляется in.,REALEC
+succeed in,succeed,in,prepositions,verb_preposition,statistics,on,preposition_error,He hopes to succeed on business and become independent,He hopes to succeed in business and become independent,Неверный выбор предлога после глагола succeed: в значении успеха в сфере или деятельности требуется in.,REALEC
+supply sb with sth,supply,with,prepositions,verb_preposition,statistics,by,preposition_error,The school supplied students by new textbooks before the course started.,The school supplied students with new textbooks before the course started.,Неверный выбор предлога после глагола supply: в модели «снабжать кого-либо чем-либо» требуется with.,REALEC
+take care of sb/sth,take care,of,prepositions,verb_preposition,statistics,about,preposition_error,She always takes care about her younger brother when their parents are away.,She always takes care of her younger brother when their parents are away.,Смешение предлогов после фразового глагола take care: под влиянием русской модели «заботиться о» учащийся может выбрать about.,REALEC
+talk to/with sb about sth,talk,about,prepositions,verb_preposition,statistics,for ,preposition_error,We need to talk with the manager for the new project.,We need to talk with the manager about the new project,Неверный выбор предлога после глагола talk: в модели «говорить о чём-то» требуется about.,REALEC
+thank for,thank,for,prepositions,verb_preposition,statistics,about,preposition_error,I want to thank you about your help.,I want to thank you for your help.,Неверный выбор предлога после глагола thank: в модели «благодарить за что-либо» требуется for.,REALEC
+think of/about,think,of about,prepositions,verb_preposition,statistics,on,preposition_error,What do you think on this problem?,What do you think about this problem?,Неверный выбор предлога после глагола think: в значении «иметь мнение» или «размышлять» требуется of или about,REALEC
+translate from,translate,from,prepositions,verb_preposition,statistics,of,preposition_error,Can you translate this text of Russian into English?,Can you translate this text from Russian into English?,Неверный выбор предлога после глагола translate: при указании исходного языка используется from,REALEC
+vote for/against,vote,for against,prepositions,verb_preposition,statistics,to,preposition_error,Many people voted to the new law.,Many people voted for the new law.,"Неверный выбор предлога после глагола vote: в значении «голосовать за» требуется for, а в значении «против» — against",REALEC
+wait for,wait,for,prepositions,verb_preposition,statistics,on,preposition_error,I'm waiting on the bus for 20 minutes.,I'm waiting for the bus for 20 minutes.,Неверный выбор предлога после глагола wait: в значении «ждать кого-либо/что-либо» требуется for.,REALEC
+waste money on sth,waste,on,prepositions,verb_preposition,statistics,for,preposition_error,Don't waste your money for things you don't need.,Don't waste your money on things you don't need.,Неверный выбор предлога после глагола waste: в модели «тратить впустую что-либо на что-либо» требуется on.,REALEC
+wonder about,wonder,about,prepositions,verb_preposition,statistics,of,preposition_error,I wonder of what will happen tomorrow.,I wonder about what will happen tomorrow.,"Неверный выбор предлога после глагола wonder: в значении «интересоваться, размышлять о чём-либо» требуется about.",REALEC
+worry about,worry,about,prepositions,verb_preposition,statistics,for,preposition_error,She is worrying for her exam results.,She is worrying about her exam results., Неверный выбор предлога после глагола worry: в значении «беспокоиться о ком-либо/чём-либо» требуется about.,REALEC
+do a favour,do a favour,do,collocations,verb_noun,statistics,make,collocation_error,Could you make me a favour and explain this rule again?,Could you do me a favour and explain this rule again?,Смешение глаголов do и make: в устойчивом выражении do a favour требуется глагол do.,REALEC
+do a favour,do a favour,do,collocations,verb_noun,statistics,give,collocation_error,My friend gave me a favour and helped me prepare for the exam.,My friend did me a favour and helped me prepare for the exam.,Неверный выбор глагола в коллокации: в английском употребляется do somebody a favour.,REALEC
+do a job,do a job,do,collocations,verb_noun,statistics,make,collocation_error,I need to make a job before the deadline.,I need to do a job before the deadline.,Смешение глаголов do и make: в устойчивом выражении do a job требуется глагол do.,REALEC
+do a lot of damage,do a lot of damage,do,collocations,verb_noun,statistics,make,collocation_error,The storm made a lot of damage to the coastal areas.,The storm did a lot of damage to the coastal areas.,Смешение глаголов do и make: в устойчивом выражении do damage требуется глагол do.,REALEC
+do a service,do a service,do,collocations,verb_noun,statistics,give,collocation_error,You have given a great service to the community,You have done a great service to the community,"Неверный выбор глагола в коллокации: в английском употребляется do a service, а не give a service",REALEC
+do a translation,do a translation,do,collocations,verb_noun,statistics,perform,collocation_error,Can you perform a translation of this document?,Can you do a translation of this document?,"Неверный выбор глагола в коллокации: perform a translation грамматически возможно, но нетипично; в повседневной и деловой речи используется do a translation.",REALEC
+do an examination,do an examination,do,collocations,verb_noun,statistics,take,collocation_error,The doctor will take an examination of your knee.,The doctor will do an examination of your knee.,Неверный выбор глагола в коллокации: в английском употребляется do an examination «проводить осмотр» (о враче).,REALEC
+do an exercise,do an exercise,do,collocations,verb_noun,statistics,write ,collocation_error,Please write exercise 5 on page 10.,Please do exercise 5 on page 10.,"Неверный выбор глагола в коллокации: write an exercise означает «составлять упражнение» (как автор), а не «выполнять упражнение» (как ученик)",REALEC
+make a cake,make a cake,make,collocations,verb_noun,statistics,do,collocation_error,,,,REALEC
+make a choice,make a choice,make,collocations,verb_noun,statistics,do,collocation_error,,,,REALEC
+make a complaint,make a complaint,make,collocations,verb_noun,statistics,do,collocation_error,,,,REALEC
+make a compliment,make a compliment,make,collocations,verb_noun,statistics,do,collocation_error,,,,REALEC
+make a contribution to,make a contribution to,make,collocations,verb_noun,statistics,do,collocation_error,,,,REALEC
+make a decision,make a decision,make,collocations,verb_noun,statistics,do,collocation_error,,,,REALEC
+make a mistake,make a mistake,make,collocations,verb_noun,statistics,do,collocation_error,,,,REALEC
+make a phone call,make a phone call,make,collocations,verb_noun,statistics,do,collocation_error,,,,REALEC
+have an experience,have an experience,have,collocations,verb_noun,statistics,,collocation_error,,,,REALEC
+have a chat,have a chat,have,collocations,verb_noun,statistics,,collocation_error,,,,REALEC
+have a headache,have a headache,have,collocations,verb_noun,statistics,,collocation_error,,,,REALEC
+have a lesson,have a lesson,have,collocations,verb_noun,statistics,,collocation_error,,,,REALEC
+take a message,take a message,take,collocations,verb_noun,statistics,,collocation_error,,,,REALEC
+take an advantage of,take an advantage of,take,collocations,verb_noun,statistics,,collocation_error,,,,REALEC
+take an exam,take an exam,take,collocations,verb_noun,statistics,,collocation_error,,,,REALEC
+take measures,take measures,take,collocations,verb_noun,statistics,,collocation_error,,,,REALEC
+take power,take power,take,collocations,verb_noun,statistics,,collocation_error,,,,REALEC
+take turns,take turns,take,collocations,verb_noun,statistics,,collocation_error,,,,REALEC
+say sth to sb,say,say,verb,verb_patterns,statistics,tell ,verb_pattern_error,He told a few words to the teacher before leaving.,He said a few words to the teacher before leaving.,"Неверный выбор глагола речи: в выражении say a few words требуется say, а не tell.",REALEC
+say sth to sb,say,say,verb,verb_patterns,statistics,talk,verb_pattern_error,She talked a few words to the teacher before leaving.,She said a few words to the teacher before leaving.,"Смешение глаголов речи: talk обозначает процесс разговора, а не произнесение конкретных слов.",REALEC
+say sth to sb,say,say,verb,verb_patterns,statistics,speak,verb_pattern_error,She spoke a few words to the teacher before leaving.,She said a few words to the teacher before leaving.,Смешение say и speak: в выражении с конкретным высказыванием требуется say.,REALEC
+tell sb sth,tell,tell,verb,verb_patterns,statistics,say,verb_pattern_error,The teacher said us the rules before the test.,The teacher told us the rules before the test.,"Смешение say и tell: если после глагола сразу указан адресат, требуется tell.",REALEC
+tell sb sth,tell,tell,verb,verb_patterns,statistics,speak,verb_pattern_error,The teacher spoke us the rules before the test.,The teacher told us the rules before the test.,Смешение глаголов речи: speak не используется в модели speak somebody something.,REALEC
+tell sb sth,tell,tell,verb,verb_patterns,statistics,talk,verb_pattern_error,The teacher talked us the rules before the test.,The teacher told us the rules before the test.,Смешение talk и tell: для передачи информации адресату требуется tell.,REALEC
+talk to sb,talk,talk,verb,verb_patterns,statistics,tell ,verb_pattern_error,I need to tell to my teacher after the lesson.,I need to talk to my teacher after the lesson.,Смешение tell и talk: для значения разговора с человеком требуется talk to.,REALEC
+talk to sb,talk,talk,verb,verb_patterns,statistics,say ,verb_pattern_error,I need to say to my teacher after the lesson.,I need to talk to my teacher after the lesson.,"Смешение say и talk: здесь речь идёт о разговоре с человеком, а не о произнесении конкретных слов.",REALEC
+talk to sb,talk,talk,verb,verb_patterns,statistics,speak,verb_pattern_error,I need to speak to my teacher after the lesson.,I need to talk to my teacher after the lesson.,"Смешение talk и speak: оба варианта возможны, но в разговорной модели справочника закрепляется talk to.",REALEC
+speak,we,,verb,verb_patterns,statistics,,verb_pattern_error,,,,REALEC
+look,look,,verb,verb_patterns,statistics,,verb_pattern_error,,,,REALEC
+glance,glance,,verb,verb_patterns,statistics,,verb_pattern_error,,,,REALEC
+stare,stare,,verb,verb_patterns,statistics,,verb_pattern_error,,,,REALEC
+skim,skim,,verb,verb_patterns,statistics,,verb_pattern_error,,,,REALEC
+scan,scan,,verb,verb_patterns,statistics,,verb_pattern_error,,,,REALEC
+see,see,,verb,verb_patterns,statistics,,verb_pattern_error,,,,REALEC
+watch,watch,,verb,verb_patterns,statistics,,verb_pattern_error,,,,REALEC
+historic moment,historic moment,historic,adjectives,word_choice,statistics,historical,word_choice_error,The signing of the peace agreement was a historical moment for the entire nation.,The signing of the peace agreement was a historic moment for the entire nation.,Смешение прилагательных historical и historic: под влиянием близости значений учащийся использует historical вместо historic.,REALEC
+historic visit,historic visit,historic,adjectives,word_choice,statistics,historical,preposition_error,The president’s historical visit strengthened relations between the two countries.,The president’s historic visit strengthened relations between the two countries.,Смешение прилагательных historical и historic: под влиянием сходства формы и значения учащийся использует historical вместо historic,REALEC
+historical monument,historical monument,historical,adjectives,word_choice,statistics,historic,preposition_error,Thousands of tourists visit the historic monument every year to learn about the country’s past.,Thousands of tourists visit the historical monument every year to learn about the country’s past.,Смешение прилагательных historic и historical: под влиянием близости значений учащийся может выбрать historical вместо historic,REALEC
+historical period,historical period,historical,adjectives,word_choice,statistics,historic,preposition_error,"During that historic period, many people moved from villages to large industrial cities.","During that historical period, many people moved from villages to large industrial cities.",Смешение прилагательных historic и historical: при описании исторического периода учащийся может ошибочно использовать historic вместо historical,
+prehistoric carvings,prehistoric carvings,prehistoric,adjectives,word_choice,statistics,historical,preposition_error,The cave is famous for its historical carvings.,The cave is famous for its prehistoric carvings.,"Смешение прилагательных prehistoric и historical: учащийся может использовать historical вместо prehistoric, хотя prehistoric относится к доисторическому периоду.",
+prehistoric animals,prehistoric,prehistoric,adjectives,word_choice,statistics,historic,preposition_error,Scientists study historic animals that lived millions of years ago.,Scientists study prehistoric animals that lived millions of years ago.,Смешение прилагательных prehistoric и historic: под влиянием сходства формы учащийся может выбрать historic вместо prehistoric,REALEC
+economic activity,economic activity,economic,adjectives,word_choice,statistics,economical,preposition_error,Tourism is an important part of the country’s economical activity.,Tourism is an important part of the country’s economic activity.,"Смешение прилагательных economic и economical: учащийся может выбрать economical вместо economic, хотя economic относится к экономике страны или общества.",
+economic crisis,economic crisis,economic,adjectives,word_choice,statistics,economical,preposition_error,Many businesses closed during the economical crisis.,Many businesses closed during the economic crisis.,"Смешение прилагательных economic и economical: под влиянием сходства формы учащийся может использовать economical вместо economic, хотя economic употребляется с явлениями экономики.",REALEC
+economical cars,economical cars,economical,adjectives,word_choice,statistics,economic,preposition_error,Small hybrid vehicles are usually economic cars.,Small hybrid vehicles are usually economical cars.,"Смешение прилагательных economical и economic: учащийся может выбрать economic вместо economical, хотя economical означает «экономичный, выгодный в использовании».",
+economical ways,economical ways,economical,adjectives,word_choice,statistics,economic,preposition_error,We are looking for economic ways to reduce energy consumption.,We are looking for economical ways to reduce energy consumption.,"Смешение прилагательных economical и economic: под влиянием сходства значений учащийся может использовать economic вместо economical, хотя economical описывает бережное использование ресурсов.",REALEC
+economy class,economy class,,adjectives,word_choice,statistics,,preposition_error,,,,REALEC
+economic activity/crisis/,economic,,adjectives,word_choice,statistics,,preposition_error,,,,REALEC
+development/ downturn/,development,,adjectives,word_choice,statistics,,preposition_error,,,,REALEC
+growth/policy/recovery/,growth,,adjectives,word_choice,statistics,,preposition_error,,,,REALEC
+reform/ slowdown/benefits,reform,,adjectives,word_choice,statistics,,preposition_error,,,,REALEC
+a market/capitalist/planned/,a,,similar_words,,statistics,,,,,,REALEC
+historic historical economy economics economic,historic,,similar_words,,statistics,,,,,,REALEC
+economical effective efficient,economical,,similar_words,,statistics,,,,,,REALEC
+tour/excursion/outing,tour,,similar_words,,statistics,,,,,,REALEC
+cruise,cruise,,similar_words,,statistics,,,,,,REALEC
+She went on a cruise and,she,on,similar_words,,statistics,,,,,,REALEC
+"visited Greece, Italy and",visited,,similar_words,,statistics,,,,,,REALEC
+Spain,spain,,similar_words,,statistics,,,,,,REALEC
+voyage,voyage,,similar_words,,statistics,,,,,,REALEC
+a voyage across the Atlantic,a,across,similar_words,,statistics,,,,,,REALEC
+a sea/ocean/round-the-,a,,similar_words,,statistics,,,,,,REALEC
+world voyage maiden voyage,world,,similar_words,,statistics,,,,,,REALEC
+(=the first voyage of a ship),the,of,similar_words,,statistics,,,,,,REALEC
+He was a young sailor on his,he,on,similar_words,,statistics,,,,,,REALEC
+first sea voyage,first,,similar_words,,statistics,,,,,,REALEC
+journey,journey,,similar_words,,statistics,,,,,,REALEC
+a long/safe/tiring journey; a,a,,similar_words,,statistics,,,,,,REALEC
+journey through time start/,journey,through,similar_words,,statistics,,,,,,REALEC
+set out on/set off on a,set,off on,similar_words,,statistics,,,,,,REALEC
+I love going on long,i,on,similar_words,,statistics,,,,,,REALEC
+journeys,journeys,,similar_words,,statistics,,,,,,REALEC
+Have a safe journey!,have,,similar_words,,statistics,,,,,,REALEC
+travel,travel,,similar_words,,statistics,,,,,,REALEC
+air/space/business/foreign,air,,similar_words,,statistics,,,,,,REALEC
+travel agency/expenses/,travel,,similar_words,,statistics,,,,,,REALEC
+card/insurance,card,,similar_words,,statistics,,,,,,REALEC
+We share a love of,we,of,similar_words,,statistics,,,,,,REALEC
+"literature, food and travel",literature,,similar_words,,statistics,,,,,,REALEC
+Travel broadens the mind,travel,,similar_words,,statistics,,,,,,REALEC
+trip,trip,,similar_words,,statistics,,,,,,REALEC
+a business/shopping/,a,,similar_words,,statistics,,,,,,REALEC
+wedding/school trip,wedding,,similar_words,,statistics,,,,,,REALEC
+a round-the-world trip,a,,similar_words,,statistics,,,,,,REALEC
+a day trip to Paris,a,to,similar_words,,statistics,,,,,,REALEC
+Do you want to go on a school,do,to on,similar_words,,statistics,,,,,,REALEC
+trip to France,trip,to,similar_words,,statistics,,,,,,REALEC
+The trip from York to,the,from to,similar_words,,statistics,,,,,,REALEC
+Newcastle takes about an,newcastle,about,similar_words,,statistics,,,,,,REALEC
+hour by train,hour,by,similar_words,,statistics,,,,,,REALEC
+We went on a guided,we,on,similar_words,,statistics,,,,,,REALEC
+of the UK,of,of,similar_words,,statistics,,,,,,REALEC
+The first,the,,similar_words,,statistics,,,,,,REALEC
+taken by the ocean liner,taken,by,similar_words,,statistics,,,,,,REALEC
+‘Queen Mary’ took place in 1936,queen,in,similar_words,,statistics,,,,,,REALEC
+Foreign,foreign,,similar_words,,statistics,,,,,,REALEC
+never really appealed to him,never,to,similar_words,,statistics,,,,,,REALEC
+until he visited England,until,,similar_words,,statistics,,,,,,REALEC
+The Australian Museum offers group,the,,similar_words,,statistics,,,,,,REALEC
+with professional guides,with,with,similar_words,,statistics,,,,,,REALEC
+She’s away on a business,she,on,similar_words,,statistics,,,,,,REALEC
+and won’t be,and,,similar_words,,statistics,,,,,,REALEC
+back until next week,back,,similar_words,,statistics,,,,,,REALEC
+They used to go on family,they,to on,similar_words,,statistics,,,,,,REALEC
+to the,to,to,similar_words,,statistics,,,,,,REALEC
+countryside,countryside,,similar_words,,statistics,,,,,,REALEC
+Our parents wished us a safe,our,,similar_words,,statistics,,,,,,REALEC
+as we,as,,similar_words,,statistics,,,,,,REALEC
+drove away,drove,,similar_words,,statistics,,,,,,REALEC
+My parents went on a/an,my,on,similar_words,,statistics,,,,,,REALEC
+around the,around,around,similar_words,,statistics,,,,,,REALEC
+Mediterranean,mediterranean,,similar_words,,statistics,,,,,,REALEC
+tour,tour,,similar_words,,statistics,,,,,,REALEC
+a guided tour/ a tour guide,a,,similar_words,,statistics,,,,,,REALEC
+a world/overseas tour,a,,similar_words,,statistics,,,,,,REALEC
+a walking/coach/bus/,a,,similar_words,,statistics,,,,,,REALEC
+cycling tour,cycling,,similar_words,,statistics,,,,,,REALEC
+A bus took us on a,a,on,similar_words,,statistics,,,,,,REALEC
+sightseeing tour of the city,sightseeing,of,similar_words,,statistics,,,,,,REALEC
+The Queen is making a two-,the,,similar_words,,statistics,,,,,,REALEC
+week tour of Australia,week,of,similar_words,,statistics,,,,,,REALEC
+a one-day excursion to the,a,to,similar_words,,statistics,,,,,,REALEC
+Grand Canyon,grand,,similar_words,,statistics,,,,,,REALEC
+Next week we’re going on an,next,on,similar_words,,statistics,,,,,,REALEC
+excursion to the Museum of,excursion,to of,similar_words,,statistics,,,,,,REALEC
+Modern Art,modern,,similar_words,,statistics,,,,,,REALEC
+outing,outing,,similar_words,,statistics,,,,,,REALEC
+a pleasant family outing,a,,similar_words,,statistics,,,,,,REALEC
+an outing to a bowling alley,an,to,similar_words,,statistics,,,,,,REALEC
+cruise voyage trip tour travel journey excursion outing,cruise,,similar_words,,statistics,,,,,,REALEC
+judge/referee/umpire,judge,,similar_words,,statistics,,,,,,REALEC
+pitch,pitch,,similar_words,,statistics,,,,,,REALEC
+a cricket/hockey/football/rugby,a,,similar_words,,statistics,,,,,,REALEC
+Supporters invaded the pitch,supporters,,similar_words,,statistics,,,,,,REALEC
+field,field,,similar_words,,statistics,,,,,,REALEC
+a baseball/football/rugby/soccer/,a,,similar_words,,statistics,,,,,,REALEC
+playing/ sports field,playing,,similar_words,,statistics,,,,,,REALEC
+The England striker left the field,the,,similar_words,,statistics,,,,,,REALEC
+with a knee injury,with,with,similar_words,,statistics,,,,,,REALEC
+court,court,,similar_words,,statistics,,,,,,REALEC
+a tennis/squash/basketball/,a,,similar_words,,statistics,,,,,,REALEC
+volleyball court,volleyball,,similar_words,,statistics,,,,,,REALEC
+The hotel has two tennis courts,the,,similar_words,,statistics,,,,,,REALEC
+course,course,,similar_words,,statistics,,,,,,REALEC
+a golf course/cross-country course,a,,similar_words,,statistics,,,,,,REALEC
+horses for courses,horses,for,similar_words,,statistics,,,,,,REALEC
+The country club has a golf course,the,,similar_words,,statistics,,,,,,REALEC
+The race was run on the turf,the,on,similar_words,,statistics,,,,,,REALEC
+ring,ring,,similar_words,,statistics,,,,,,REALEC
+a boxing/wrestling ring,a,,similar_words,,statistics,,,,,,REALEC
+We manufacturer Boxing Rings,we,,similar_words,,statistics,,,,,,REALEC
+and Wrestling Rings,and,,similar_words,,statistics,,,,,,REALEC
+rink,rink,,similar_words,,statistics,,,,,,REALEC
+a ice/ice-hockey/skating/roller-,a,,similar_words,,statistics,,,,,,REALEC
+skating rink,skating,,similar_words,,statistics,,,,,,REALEC
+judge,judge,,similar_words,,statistics,,,,,,REALEC
+a British high-court judge,a,,similar_words,,statistics,,,,,,REALEC
+a US Supreme Court judge,a,,similar_words,,statistics,,,,,,REALEC
+a panel of judges,a,of,similar_words,,statistics,,,,,,REALEC
+The judge sentenced him to five,the,to,similar_words,,statistics,,,,,,REALEC
+years in prison,years,in,similar_words,,statistics,,,,,,REALEC
+She’s such a bad judge of,she,of,similar_words,,statistics,,,,,,REALEC
+character,character,,similar_words,,statistics,,,,,,REALEC
+All entries will be examined by a,all,by,similar_words,,statistics,,,,,,REALEC
+panel of judges,panel,of,similar_words,,statistics,,,,,,REALEC
+We’ve got a tennis,we,,similar_words,,statistics,,,,,,REALEC
+near our country,near,near,similar_words,,statistics,,,,,,REALEC
+house,house,,similar_words,,statistics,,,,,,REALEC
+In tennis a(n),in,in,similar_words,,statistics,,,,,,REALEC
+is an on-court official,is,on,similar_words,,statistics,,,,,,REALEC
+Hundreds of boxing fans crowded around the,hundreds,of around,similar_words,,statistics,,,,,,REALEC
+with cameras in hands,with,with in,similar_words,,statistics,,,,,,REALEC
+A High Court,a,,similar_words,,statistics,,,,,,REALEC
+found him innocent,found,,similar_words,,statistics,,,,,,REALEC
+What is the standard size of a football,what,of,similar_words,,statistics,,,,,,REALEC
+This skating,this,,similar_words,,statistics,,,,,,REALEC
+"was built in 1948, making",was,in,similar_words,,statistics,,,,,,REALEC
+it the oldest one in the state,it,in,similar_words,,statistics,,,,,,REALEC
+A golf,a,,similar_words,,statistics,,,,,,REALEC
+consists of a series of holes,consists,of of,similar_words,,statistics,,,,,,REALEC
+A football match is presided over by a(n),a,over by,similar_words,,statistics,,,,,,REALEC
+who has authority to make decisions about the game,who,to about,similar_words,,statistics,,,,,,REALEC
+The referee is the sole judge of the,the,of,similar_words,,statistics,,,,,,REALEC
+rules,rules,,similar_words,,statistics,,,,,,REALEC
+Liverpool only lost the game,liverpool,,similar_words,,statistics,,,,,,REALEC
+because the referee was biased,because,,similar_words,,statistics,,,,,,REALEC
+A senior judge is acting as referee,a,,similar_words,,statistics,,,,,,REALEC
+in the pay dispute between the,in,in between,similar_words,,statistics,,,,,,REALEC
+trade union and management,trade,,similar_words,,statistics,,,,,,REALEC
+She gave her college tutor as her,she,,similar_words,,statistics,,,,,,REALEC
+referee to the interviewer,referee,to,similar_words,,statistics,,,,,,REALEC
+He has been chosen as an umpire,he,,similar_words,,statistics,,,,,,REALEC
+for the next cricket test match,for,for,similar_words,,statistics,,,,,,REALEC
+referee,referee,,similar_words,,statistics,,,,,,REALEC
+umpire,umpire,,similar_words,,statistics,,,,,,REALEC
+humane/treat/cure/heal,humane,,similar_words,,statistics,,,,,,REALEC
+prescription рецепт врача,prescription,,similar_words,,statistics,,,,,,REALEC
+a doctor’s prescription; a,a,,similar_words,,statistics,,,,,,REALEC
+prescription for sedatives,prescription,for,similar_words,,statistics,,,,,,REALEC
+These drugs are only,these,,similar_words,,statistics,,,,,,REALEC
+available on prescription,available,on,similar_words,,statistics,,,,,,REALEC
+recipe,recipe,,similar_words,,statistics,,,,,,REALEC
+Do you know a good recipe,do,,similar_words,,statistics,,,,,,REALEC
+for wholemeal bread,for,for,similar_words,,statistics,,,,,,REALEC
+be a recipe for disaster/,be,for,similar_words,,statistics,,,,,,REALEC
+trouble/success,trouble,,similar_words,,statistics,,,,,,REALEC
+Large-scale inflation is a,large,,similar_words,,statistics,,,,,,REALEC
+recipe for disaster,recipe,for,similar_words,,statistics,,,,,,REALEC
+human,human,,similar_words,,statistics,,,,,,REALEC
+a human life/body/remains/,a,,similar_words,,statistics,,,,,,REALEC
+being/error,being,,similar_words,,statistics,,,,,,REALEC
+The human body is composed,the,,similar_words,,statistics,,,,,,REALEC
+of about 60% water,of,of about,similar_words,,statistics,,,,,,REALEC
+humane,humane,,similar_words,,statistics,,,,,,REALEC
+The humane way of dealing,the,of,similar_words,,statistics,,,,,,REALEC
+with a suffering animal is to,with,with to,similar_words,,statistics,,,,,,REALEC
+kill it quickly,kill,,similar_words,,statistics,,,,,,REALEC
+treat,treat,,similar_words,,statistics,,,,,,REALEC
+He is being treated for a rare,he,for,similar_words,,statistics,,,,,,REALEC
+skin disease,skin,,similar_words,,statistics,,,,,,REALEC
+He treated his wife very,he,,similar_words,,statistics,,,,,,REALEC
+badly,badly,,similar_words,,statistics,,,,,,REALEC
+Please treat this matter as,please,,similar_words,,statistics,,,,,,REALEC
+urgent,urgent,,similar_words,,statistics,,,,,,REALEC
+cure,cure,,similar_words,,statistics,,,,,,REALEC
+In the past doctors couldn’t,in,in,similar_words,,statistics,,,,,,REALEC
+cure tuberculosis/cure,cure,,similar_words,,statistics,,,,,,REALEC
+people of tuberculosis,people,of,similar_words,,statistics,,,,,,REALEC
+heal,heal,,similar_words,,statistics,,,,,,REALEC
+The wounds were gradually,the,,similar_words,,statistics,,,,,,REALEC
+healing (up),healing,up,similar_words,,statistics,,,,,,REALEC
+A broken heart takes a long,a,,similar_words,,statistics,,,,,,REALEC
+time to heal,time,to,similar_words,,statistics,,,,,,REALEC
+Vitamin K is needed for,vitamin,for,similar_words,,statistics,,,,,,REALEC
+healing cuts,healing,,similar_words,,statistics,,,,,,REALEC
+the healing properties of,the,of,similar_words,,statistics,,,,,,REALEC
+plants,plants,,similar_words,,statistics,,,,,,REALEC
+My parents,my,,similar_words,,statistics,,,,,,REALEC
+us all the same when we,us,,similar_words,,statistics,,,,,,REALEC
+were kids,were,,similar_words,,statistics,,,,,,REALEC
+brain is much bigger than that of a,brain,of,similar_words,,statistics,,,,,,REALEC
+chimpanzee,chimpanzee,,similar_words,,statistics,,,,,,REALEC
+Doctors have learned to,doctors,to,similar_words,,statistics,,,,,,REALEC
+many formerly,many,,similar_words,,statistics,,,,,,REALEC
+fatal diseases,fatal,,similar_words,,statistics,,,,,,REALEC
+Could you give me a,could,,similar_words,,statistics,,,,,,REALEC
+for your apple pie,for,for,similar_words,,statistics,,,,,,REALEC
+I don’t support the death penalty because it is not,i,,similar_words,,statistics,,,,,,REALEC
+to kill people,to,to,similar_words,,statistics,,,,,,REALEC
+In this hospital patients are,in,in,similar_words,,statistics,,,,,,REALEC
+with a,with,with,similar_words,,statistics,,,,,,REALEC
+combination of medication and exercise,combination,of,similar_words,,statistics,,,,,,REALEC
+The doctor gave me a,the,,similar_words,,statistics,,,,,,REALEC
+for a new,for,for,similar_words,,statistics,,,,,,REALEC
+medicine,medicine,,similar_words,,statistics,,,,,,REALEC
+My wound has already,my,,similar_words,,statistics,,,,,,REALEC
+sensible/sensitive,sensible,,similar_words,,statistics,,,,,,REALEC
+annoyed/anxious/frustrated/nervous,annoyed,,similar_words,,statistics,,,,,,REALEC
+prescription,prescription,,similar_words,,statistics,,,,,,REALEC
+treat (2),treat,,similar_words,,statistics,,,,,,REALEC
+sincere,sincere,,similar_words,,statistics,,,,,,REALEC
+Не is a modest and sincere,is,,similar_words,,statistics,,,,,,REALEC
+man,man,,similar_words,,statistics,,,,,,REALEC
+sincere apologies,sincere,,similar_words,,statistics,,,,,,REALEC
+honest,honest,,similar_words,,statistics,,,,,,REALEC
+Most young people are,most,,similar_words,,statistics,,,,,,REALEC
+decent and honest,decent,,similar_words,,statistics,,,,,,REALEC
+honest opinion/answer/,honest,,similar_words,,statistics,,,,,,REALEC
+mistake,mistake,,similar_words,,statistics,,,,,,REALEC
+the honest truth,the,,similar_words,,statistics,,,,,,REALEC
+to be honest with sb,to,to with,similar_words,,statistics,,,,,,REALEC
+to earn an honest living,to,to,similar_words,,statistics,,,,,,REALEC
+outspoken,outspoken,,similar_words,,statistics,,,,,,REALEC
+an outspoken critic of the,an,of,similar_words,,statistics,,,,,,REALEC
+government,government,,similar_words,,statistics,,,,,,REALEC
+The outspoken activist,the,,similar_words,,statistics,,,,,,REALEC
+protested the budget cuts,protested,,similar_words,,statistics,,,,,,REALEC
+annoyed,annoyed,,similar_words,,statistics,,,,,,REALEC
+She was annoyed with the,she,with,similar_words,,statistics,,,,,,REALEC
+children,children,,similar_words,,statistics,,,,,,REALEC
+He was annoyed at the way,he,at,similar_words,,statistics,,,,,,REALEC
+she tried to take over the,she,to over,similar_words,,statistics,,,,,,REALEC
+whole meeting,whole,,similar_words,,statistics,,,,,,REALEC
+My parents were rather,my,,similar_words,,statistics,,,,,,REALEC
+annoyed (that) I hadn’t told,annoyed,,similar_words,,statistics,,,,,,REALEC
+them about the accident,them,about,similar_words,,statistics,,,,,,REALEC
+anxious,anxious,,similar_words,,statistics,,,,,,REALEC
+an anxious glance,an,,similar_words,,statistics,,,,,,REALEC
+My mother always gets a bit,my,,similar_words,,statistics,,,,,,REALEC
+anxious if we are late,anxious,,similar_words,,statistics,,,,,,REALEC
+The drought has made,the,,similar_words,,statistics,,,,,,REALEC
+farmers anxious about the,farmers,about,similar_words,,statistics,,,,,,REALEC
+harvest,harvest,,similar_words,,statistics,,,,,,REALEC
+I’m anxious to get home to,i,to to,similar_words,,statistics,,,,,,REALEC
+open my presents,open,,similar_words,,statistics,,,,,,REALEC
+frustrated,frustrated,,similar_words,,statistics,,,,,,REALEC
+frustrated at / with smth,frustrated,at with,similar_words,,statistics,,,,,,REALEC
+He gets so frustrated at not,he,at,similar_words,,statistics,,,,,,REALEC
+being able to do things for,being,to for,similar_words,,statistics,,,,,,REALEC
+himself any more,himself,,similar_words,,statistics,,,,,,REALEC
+Are you feeling frustrated,are,,similar_words,,statistics,,,,,,REALEC
+in your present job,in,in,similar_words,,statistics,,,,,,REALEC
+Frustrated writers often end,frustrated,,similar_words,,statistics,,,,,,REALEC
+up in publishing,up,up in,similar_words,,statistics,,,,,,REALEC
+nervous,nervous,,similar_words,,statistics,,,,,,REALEC
+Do you feel/get nervous,do,,similar_words,,statistics,,,,,,REALEC
+during exams,during,during,similar_words,,statistics,,,,,,REALEC
+I was too nervous to speak,i,to,similar_words,,statistics,,,,,,REALEC
+I was very nervous about,i,about,similar_words,,statistics,,,,,,REALEC
+driving again after the,driving,after,similar_words,,statistics,,,,,,REALEC
+accident,accident,,similar_words,,statistics,,,,,,REALEC
+He suffers from a nervous,he,from,similar_words,,statistics,,,,,,REALEC
+disorder,disorder,,similar_words,,statistics,,,,,,REALEC
+My sister has got a very,my,,similar_words,,statistics,,,,,,REALEC
+skin,skin,,similar_words,,statistics,,,,,,REALEC
+people get into trouble because they,people,into,similar_words,,statistics,,,,,,REALEC
+speak before they think,speak,before,similar_words,,statistics,,,,,,REALEC
+Some parents get very,some,,similar_words,,statistics,,,,,,REALEC
+at the inability to,at,at to,similar_words,,statistics,,,,,,REALEC
+control their children,control,,similar_words,,statistics,,,,,,REALEC
+I want to express my,i,to,similar_words,,statistics,,,,,,REALEC
+apologies for what,apologies,for,similar_words,,statistics,,,,,,REALEC
+I said,i,,similar_words,,statistics,,,,,,REALEC
+that I hadn’t,that,,similar_words,,statistics,,,,,,REALEC
+done my homework,done,,similar_words,,statistics,,,,,,REALEC
+It’s a very,it,,similar_words,,statistics,,,,,,REALEC
+way of dealing with this,way,of with,similar_words,,statistics,,,,,,REALEC
+problem,problem,,similar_words,,statistics,,,,,,REALEC
+Do you get,do,,similar_words,,statistics,,,,,,REALEC
+To be,to,to,similar_words,,statistics,,,,,,REALEC
+I don’t think it’s a good idea to,i,to,similar_words,,statistics,,,,,,REALEC
+invite my cousin to stay with us,invite,to with,similar_words,,statistics,,,,,,REALEC
+ensure/insure/make sure,ensure,,similar_words,,statistics,,,,,,REALEC
+property/ownership/possessions/belongings,property,,similar_words,,statistics,,,,,,REALEC
+sensible,sensible,,similar_words,,statistics,,,,,,REALEC
+It was sensible of her to put,it,of to,similar_words,,statistics,,,,,,REALEC
+off her holiday,off,off,similar_words,,statistics,,,,,,REALEC
+sensitive,sensitive,,similar_words,,statistics,,,,,,REALEC
+Laura is very sensitive to,laura,to,similar_words,,statistics,,,,,,REALEC
+criticism,criticism,,similar_words,,statistics,,,,,,REALEC
+He is very sensitive to the,he,to,similar_words,,statistics,,,,,,REALEC
+needs of the disabled,needs,of,similar_words,,statistics,,,,,,REALEC
+affect,affect,,similar_words,,statistics,,,,,,REALEC
+Both buildings were badly,both,,similar_words,,statistics,,,,,,REALEC
+affected by the fire,affected,by,similar_words,,statistics,,,,,,REALEC
+The divorce affected every,the,,similar_words,,statistics,,,,,,REALEC
+aspect of her life,aspect,of,similar_words,,statistics,,,,,,REALEC
+I was deeply affected by the,i,by,similar_words,,statistics,,,,,,REALEC
+film,film,,similar_words,,statistics,,,,,,REALEC
+The government must,the,,similar_words,,statistics,,,,,,REALEC
+the protection of,the,of,similar_words,,statistics,,,,,,REALEC
+endangered species,endangered,,similar_words,,statistics,,,,,,REALEC
+Air pollution has a disastrous,air,,similar_words,,statistics,,,,,,REALEC
+people’s health,people,,similar_words,,statistics,,,,,,REALEC
+effect,effect,,similar_words,,statistics,,,,,,REALEC
+to have/produce an effect,to,to,similar_words,,statistics,,,,,,REALEC
+I tried taking tablets for the,i,for,similar_words,,statistics,,,,,,REALEC
+headache but they didn’t have,headache,,similar_words,,statistics,,,,,,REALEC
+any effect,any,,similar_words,,statistics,,,,,,REALEC
+ensure,ensure,,similar_words,,statistics,,,,,,REALEC
+The airline is taking steps to,the,to,similar_words,,statistics,,,,,,REALEC
+ensure safety on its aircraft,ensure,on,similar_words,,statistics,,,,,,REALEC
+insure,insure,,similar_words,,statistics,,,,,,REALEC
+The house is insured for two,the,for,similar_words,,statistics,,,,,,REALEC
+million pounds against,million,against,similar_words,,statistics,,,,,,REALEC
+accidental damage,accidental,,similar_words,,statistics,,,,,,REALEC
+make sure,make,,similar_words,,statistics,,,,,,REALEC
+Make sure you lock the door,make,,similar_words,,statistics,,,,,,REALEC
+when you go out,when,out,similar_words,,statistics,,,,,,REALEC
+property,property,,similar_words,,statistics,,,,,,REALEC
+Personal/private property,personal,,similar_words,,statistics,,,,,,REALEC
+intellectual property,intellectual,,similar_words,,statistics,,,,,,REALEC
+The notice said ‘Private,the,,similar_words,,statistics,,,,,,REALEC
+"Property, Keep Off.’",property,off,similar_words,,statistics,,,,,,REALEC
+ownership,ownership,,similar_words,,statistics,,,,,,REALEC
+Do you have any proof of,do,of,similar_words,,statistics,,,,,,REALEC
+ownership of/for this car,ownership,of for,similar_words,,statistics,,,,,,REALEC
+Rates of home ownership have,rates,of,similar_words,,statistics,,,,,,REALEC
+remained relatively constant,remained,,similar_words,,statistics,,,,,,REALEC
+Please remember to take all,please,to,similar_words,,statistics,,,,,,REALEC
+your personal possessions with,your,with,similar_words,,statistics,,,,,,REALEC
+you when you leave the plane,you,,similar_words,,statistics,,,,,,REALEC
+treasured/precious possession,treasured,,similar_words,,statistics,,,,,,REALEC
+belongings,belongings,,similar_words,,statistics,,,,,,REALEC
+I put a few personal,i,,similar_words,,statistics,,,,,,REALEC
+belongings in a bag and left,belongings,in,similar_words,,statistics,,,,,,REALEC
+the house for the last time,the,for,similar_words,,statistics,,,,,,REALEC
+possession,possession,,similar_words,,statistics,,,,,,REALEC
+What is your most treasured,what,,similar_words,,statistics,,,,,,REALEC
+I think I’ve locked the door but you’d better make,i,,similar_words,,statistics,,,,,,REALEC
+British,british,,similar_words,,statistics,,,,,,REALEC
+of this company was formally,of,of,similar_words,,statistics,,,,,,REALEC
+recognized,recognized,,similar_words,,statistics,,,,,,REALEC
+Industrial waste badly,industrial,,similar_words,,statistics,,,,,,REALEC
+our environment,our,,similar_words,,statistics,,,,,,REALEC
+"The sign said, ‘Private",the,,similar_words,,statistics,,,,,,REALEC
+No Trespassing.’,no,,similar_words,,statistics,,,,,,REALEC
+We have,we,,similar_words,,statistics,,,,,,REALEC
+our house against flood damage,our,against,similar_words,,statistics,,,,,,REALEC
+He had few personal,he,,similar_words,,statistics,,,,,,REALEC
+accident/incident/occasion/occurrence,accident,,similar_words,,statistics,,,,,,REALEC
+remember,remember,,similar_words,,statistics,,,,,,REALEC
+I can remember people’s,i,,similar_words,,statistics,,,,,,REALEC
+"faces, but not their names",faces,,similar_words,,statistics,,,,,,REALEC
+Did you remember to do the,did,to,similar_words,,statistics,,,,,,REALEC
+shopping,shopping,,similar_words,,statistics,,,,,,REALEC
+Please remember me to your,please,to,similar_words,,statistics,,,,,,REALEC
+parents,parents,,similar_words,,statistics,,,,,,REALEC
+remind,remind,,similar_words,,statistics,,,,,,REALEC
+ние (about sth/to,about,about to,similar_words,,statistics,,,,,,REALEC
+do sth),do,,similar_words,,statistics,,,,,,REALEC
+Could you remind Paul,could,,similar_words,,statistics,,,,,,REALEC
+about dinner on Saturday,about,about on,similar_words,,statistics,,,,,,REALEC
+Your hair and eyes remind,your,,similar_words,,statistics,,,,,,REALEC
+me of your mother,me,of,similar_words,,statistics,,,,,,REALEC
+review,review,,similar_words,,statistics,,,,,,REALEC
+Several aspects of,several,of,similar_words,,statistics,,,,,,REALEC
+environmental policy are,environmental,,similar_words,,statistics,,,,,,REALEC
+currently under review,currently,under,similar_words,,statistics,,,,,,REALEC
+The play got excellent,the,,similar_words,,statistics,,,,,,REALEC
+reviews when it was first,reviews,,similar_words,,statistics,,,,,,REALEC
+seen,seen,,similar_words,,statistics,,,,,,REALEC
+revision,revision,,similar_words,,statistics,,,,,,REALEC
+He was forced to make,he,to,similar_words,,statistics,,,,,,REALEC
+several revisions to his,several,to,similar_words,,statistics,,,,,,REALEC
+speech,speech,,similar_words,,statistics,,,,,,REALEC
+"She did no revision, but she",she,,similar_words,,statistics,,,,,,REALEC
+still got a very high mark at,still,at,similar_words,,statistics,,,,,,REALEC
+the exam,the,,similar_words,,statistics,,,,,,REALEC
+"buying this book. However, I can’t",buying,,similar_words,,statistics,,,,,,REALEC
+find it anywhere,find,,similar_words,,statistics,,,,,,REALEC
+He was killed in a car,he,in,similar_words,,statistics,,,,,,REALEC
+I had no,i,,similar_words,,statistics,,,,,,REALEC
+to speak to him,to,to to,similar_words,,statistics,,,,,,REALEC
+We have absolutely no time for,we,for,similar_words,,statistics,,,,,,REALEC
+before,before,before,similar_words,,statistics,,,,,,REALEC
+our exams,our,,similar_words,,statistics,,,,,,REALEC
+Street-fights are an everyday,street,,similar_words,,statistics,,,,,,REALEC
+in this,in,in,similar_words,,statistics,,,,,,REALEC
+area of the city,area,of,similar_words,,statistics,,,,,,REALEC
+Please,please,,similar_words,,statistics,,,,,,REALEC
+me to buy this book when we are,me,to,similar_words,,statistics,,,,,,REALEC
+in the shop,in,in,similar_words,,statistics,,,,,,REALEC
+Every time I think of this funny,every,of,similar_words,,statistics,,,,,,REALEC
+I can’t,i,,similar_words,,statistics,,,,,,REALEC
+help laughing,help,,similar_words,,statistics,,,,,,REALEC
+Roger writes film,roger,,similar_words,,statistics,,,,,,REALEC
+for the newspapers,for,for,similar_words,,statistics,,,,,,REALEC
+occasion,occasion,,similar_words,,statistics,,,,,,REALEC
+We met on several occasions,we,on,similar_words,,statistics,,,,,,REALEC
+to discuss the issue,to,to,similar_words,,statistics,,,,,,REALEC
+The coronation of a new king,the,of,similar_words,,statistics,,,,,,REALEC
+"is, of course, a historic",is,of,similar_words,,statistics,,,,,,REALEC
+incident,incident,,similar_words,,statistics,,,,,,REALEC
+funny/curious/unpleasant/,funny,,similar_words,,statistics,,,,,,REALEC
+strange/incident,strange,,similar_words,,statistics,,,,,,REALEC
+A teenager was seriously,a,,similar_words,,statistics,,,,,,REALEC
+injured in a shooting,injured,in,similar_words,,statistics,,,,,,REALEC
+incident on Saturday night,incident,on,similar_words,,statistics,,,,,,REALEC
+She was injured in a car/,she,in,similar_words,,statistics,,,,,,REALEC
+road accident,road,,similar_words,,statistics,,,,,,REALEC
+by accident = случайно,by,by,similar_words,,statistics,,,,,,REALEC
+occurrence,occurrence,,similar_words,,statistics,,,,,,REALEC
+common/daily/everyday/,common,,similar_words,,statistics,,,,,,REALEC
+frequent/rare/occurrence,frequent,,similar_words,,statistics,,,,,,REALEC
+"Unfortunately, computer",unfortunately,,similar_words,,statistics,,,,,,REALEC
+errors are a common,errors,,similar_words,,statistics,,,,,,REALEC
+The occurrence of cancer,the,of,similar_words,,statistics,,,,,,REALEC
+increases with age,increases,with,similar_words,,statistics,,,,,,REALEC
+receipt/cheque/cash/change; spend/waste,receipt,,similar_words,,statistics,,,,,,REALEC
+It’s important to be able to,it,to to,similar_words,,statistics,,,,,,REALEC
+money wisely,money,,similar_words,,statistics,,,,,,REALEC
+"Sorry, I don’t have any cash now. Can I pay by",sorry,by,similar_words,,statistics,,,,,,REALEC
+lend,lend,,similar_words,,statistics,,,,,,REALEC
+She lent the money to him,she,to,similar_words,,statistics,,,,,,REALEC
+borrow,borrow,,similar_words,,statistics,,,,,,REALEC
+You could borrow some money,you,,similar_words,,statistics,,,,,,REALEC
+from your uncle,from,from,similar_words,,statistics,,,,,,REALEC
+He borrowed a novel from the,he,from,similar_words,,statistics,,,,,,REALEC
+library,library,,similar_words,,statistics,,,,,,REALEC
+receipt,receipt,,similar_words,,statistics,,,,,,REALEC
+Make sure you are given a receipt,make,,similar_words,,statistics,,,,,,REALEC
+for everything you buy,for,for,similar_words,,statistics,,,,,,REALEC
+cheque,cheque,,similar_words,,statistics,,,,,,REALEC
+a bad cheque; to cash a cheque,a,to,similar_words,,statistics,,,,,,REALEC
+a cheque card,a,,similar_words,,statistics,,,,,,REALEC
+I wrote him a cheque for £50,i,for,similar_words,,statistics,,,,,,REALEC
+"I don’t have any cash on me, so",i,on,similar_words,,statistics,,,,,,REALEC
+could I pay with a/by cheque,could,with by,similar_words,,statistics,,,,,,REALEC
+cash,cash,,similar_words,,statistics,,,,,,REALEC
+Do you want to pay in cash or by,do,in by,similar_words,,statistics,,,,,,REALEC
+credit card,credit,,similar_words,,statistics,,,,,,REALEC
+change,change,,similar_words,,statistics,,,,,,REALEC
+Here’s your change,here,,similar_words,,statistics,,,,,,REALEC
+I’m sorry I haven’t got any change,i,,similar_words,,statistics,,,,,,REALEC
+spend,spend,,similar_words,,statistics,,,,,,REALEC
+We’ve just spent £2 million on,we,on,similar_words,,statistics,,,,,,REALEC
+improving our computer network,improving,,similar_words,,statistics,,,,,,REALEC
+He spent a weekend in London,he,in,similar_words,,statistics,,,,,,REALEC
+waste,waste,,similar_words,,statistics,,,,,,REALEC
+She wastes money on gambling,she,on,similar_words,,statistics,,,,,,REALEC
+lend borrow receipt cheque cash change spend waste,lend,,similar_words,,statistics,,,,,,REALEC
+Have you got,have,,similar_words,,statistics,,,,,,REALEC
+for a twenty-dollar bill,for,for,similar_words,,statistics,,,,,,REALEC
+She really,she,,similar_words,,statistics,,,,,,REALEC
+money buying loads of clothes,money,of,similar_words,,statistics,,,,,,REALEC
+"If you need money, I can",if,,similar_words,,statistics,,,,,,REALEC
+you $200,you,,similar_words,,statistics,,,,,,REALEC
+Do you have any,do,,similar_words,,statistics,,,,,,REALEC
+on you,on,on,similar_words,,statistics,,,,,,REALEC
+He always paid by credit card and kept the,he,by,similar_words,,statistics,,,,,,REALEC
+She used to,she,to,similar_words,,statistics,,,,,,REALEC
+money from her brother,money,from,similar_words,,statistics,,,,,,REALEC
+commission/perks/bonuses; staff/team/crew,commission,,similar_words,,statistics,,,,,,REALEC
+an hourly/daily/weekly wage,an,,similar_words,,statistics,,,,,,REALEC
+He gets/earns a good wage,he,,similar_words,,statistics,,,,,,REALEC
+because he works for a fair,because,for,similar_words,,statistics,,,,,,REALEC
+employer,employer,,similar_words,,statistics,,,,,,REALEC
+The smaller shops pay very low,the,,similar_words,,statistics,,,,,,REALEC
+wages,wages,,similar_words,,statistics,,,,,,REALEC
+salary,salary,,similar_words,,statistics,,,,,,REALEC
+"an annual salary of £20,000",an,of,similar_words,,statistics,,,,,,REALEC
+"His net monthly salary is £1,500",his,,similar_words,,statistics,,,,,,REALEC
+income,income,,similar_words,,statistics,,,,,,REALEC
+annual/monthly/net/fixed/,annual,,similar_words,,statistics,,,,,,REALEC
+taxable income,taxable,,similar_words,,statistics,,,,,,REALEC
+More help is needed for people on,more,for on,similar_words,,statistics,,,,,,REALEC
+low incomes,low,,similar_words,,statistics,,,,,,REALEC
+royalty,royalty,,similar_words,,statistics,,,,,,REALEC
+Royalties are paid to the patent,royalties,to,similar_words,,statistics,,,,,,REALEC
+owner in exchange for a licence,owner,in for,similar_words,,statistics,,,,,,REALEC
+com,com,,similar_words,,statistics,,,,,,REALEC
+mission,mission,,similar_words,,statistics,,,,,,REALEC
+Is she paid a regular wage or is it,is,,similar_words,,statistics,,,,,,REALEC
+on/by commission only,on,on by,similar_words,,statistics,,,,,,REALEC
+She gets a 15% commission on,she,on,similar_words,,statistics,,,,,,REALEC
+every machine she sells,every,,similar_words,,statistics,,,,,,REALEC
+perk,perk,,similar_words,,statistics,,,,,,REALEC
+A company car and a mobile,a,,similar_words,,statistics,,,,,,REALEC
+phone are some of the perks that,phone,of,similar_words,,statistics,,,,,,REALEC
+come with the job,come,with,similar_words,,statistics,,,,,,REALEC
+Having such easy access to some,having,to,similar_words,,statistics,,,,,,REALEC
+of the best cinema and theatre is,of,of,similar_words,,statistics,,,,,,REALEC
+one of the perks of living in,of,of in,similar_words,,statistics,,,,,,REALEC
+Sydney,sydney,,similar_words,,statistics,,,,,,REALEC
+bonus,bonus,,similar_words,,statistics,,,,,,REALEC
+Customers will receive a free tape,customers,,similar_words,,statistics,,,,,,REALEC
+as a bonus with any order over,as,with over,similar_words,,statistics,,,,,,REALEC
+"I love the job, and it’s an added",i,,similar_words,,statistics,,,,,,REALEC
+bonus that it’s so close to home,bonus,to,similar_words,,statistics,,,,,,REALEC
+benefit,benefit,,similar_words,,statistics,,,,,,REALEC
+The discovery of oil brought,the,of,similar_words,,statistics,,,,,,REALEC
+many benefits to the town,many,to,similar_words,,statistics,,,,,,REALEC
+unemployment/housing/,unemployment,,similar_words,,statistics,,,,,,REALEC
+sickness/ disability benefit,sickness,,similar_words,,statistics,,,,,,REALEC
+I’m on benefit at the moment,i,on at,similar_words,,statistics,,,,,,REALEC
+team,team,,similar_words,,statistics,,,,,,REALEC
+a basketball/hockey/cricket/,a,,similar_words,,statistics,,,,,,REALEC
+football team,football,,similar_words,,statistics,,,,,,REALEC
+home/visiting/national/rival,home,,similar_words,,statistics,,,,,,REALEC
+a team of investigators/ editors,a,of,similar_words,,statistics,,,,,,REALEC
+to work in a team,to,to in,similar_words,,statistics,,,,,,REALEC
+It was a real team effort,it,,similar_words,,statistics,,,,,,REALEC
+everyone contributed something,everyone,,similar_words,,statistics,,,,,,REALEC
+to the success of the project,to,to of,similar_words,,statistics,,,,,,REALEC
+crew,crew,,similar_words,,statistics,,,,,,REALEC
+an ambulance/lifeboat crew,an,,similar_words,,statistics,,,,,,REALEC
+a TV/film/camera crew,a,,similar_words,,statistics,,,,,,REALEC
+The aircraft has a crew of seven,the,of,similar_words,,statistics,,,,,,REALEC
+staff,staff,,similar_words,,statistics,,,,,,REALEC
+It is a small hospital with a staff,it,with,similar_words,,statistics,,,,,,REALEC
+of just over a hundred,of,of over,similar_words,,statistics,,,,,,REALEC
+He is on (= a member of) the,he,on of,similar_words,,statistics,,,,,,REALEC
+editorial staff of the magazine,editorial,of,similar_words,,statistics,,,,,,REALEC
+Free meals are one of the,free,of,similar_words,,statistics,,,,,,REALEC
+of this job,of,of,similar_words,,statistics,,,,,,REALEC
+Cruise,cruise,,similar_words,,statistics,,,,,,REALEC
+ships,ships,,similar_words,,statistics,,,,,,REALEC
+resemble,resemble,,similar_words,,statistics,,,,,,REALEC
+giant,giant,,similar_words,,statistics,,,,,,REALEC
+floating,floating,,similar_words,,statistics,,,,,,REALEC
+hotels,hotels,,similar_words,,statistics,,,,,,REALEC
+employing thousands of,employing,of,similar_words,,statistics,,,,,,REALEC
+members,members,,similar_words,,statistics,,,,,,REALEC
+on sales is a traditional way for,on,on for,similar_words,,statistics,,,,,,REALEC
+companies to pay their sales reps,companies,to,similar_words,,statistics,,,,,,REALEC
+There is a good relationship between,there,between,similar_words,,statistics,,,,,,REALEC
+and pupils at the school,and,at,similar_words,,statistics,,,,,,REALEC
+His monthly,his,,similar_words,,statistics,,,,,,REALEC
+is £500,is,,similar_words,,statistics,,,,,,REALEC
+They are the worst,they,,similar_words,,statistics,,,,,,REALEC
+in baseball,in,in,similar_words,,statistics,,,,,,REALEC
+We receive annual,we,,similar_words,,statistics,,,,,,REALEC
+at the end of the year,at,at of,similar_words,,statistics,,,,,,REALEC
+What’s the starting hourly,what,,similar_words,,statistics,,,,,,REALEC
+for a waiter,for,for,similar_words,,statistics,,,,,,REALEC
+at Olive Garden,at,at,similar_words,,statistics,,,,,,REALEC
+valuable/invaluable/valueless/priceless,valuable,,similar_words,,statistics,,,,,,REALEC
+skills/qualities/experience/qualifications,skills,,similar_words,,statistics,,,,,,REALEC
+wage,wage,,similar_words,,statistics,,,,,,REALEC
+commission,commission,,similar_words,,statistics,,,,,,REALEC
+perks,perks,,similar_words,,statistics,,,,,,REALEC
+bonuses,bonuses,,similar_words,,statistics,,,,,,REALEC
+valuable,valuable,,similar_words,,statistics,,,,,,REALEC
+Gold is more valuable than silver,gold,,similar_words,,statistics,,,,,,REALEC
+It’s extremely valuable to know,it,to,similar_words,,statistics,,,,,,REALEC
+The new job will provide you with,the,with,similar_words,,statistics,,,,,,REALEC
+invaluable experience,invaluable,,similar_words,,statistics,,,,,,REALEC
+Such data will prove invaluable,such,,similar_words,,statistics,,,,,,REALEC
+to/for researchers,to,to for,similar_words,,statistics,,,,,,REALEC
+valueless,valueless,,similar_words,,statistics,,,,,,REALEC
+We thought the chair was an,we,,similar_words,,statistics,,,,,,REALEC
+"antique worth a lot of money, but",antique,of,similar_words,,statistics,,,,,,REALEC
+it turned out to be a valueless,it,out to,similar_words,,statistics,,,,,,REALEC
+replica,replica,,similar_words,,statistics,,,,,,REALEC
+His comments were so general as,his,,similar_words,,statistics,,,,,,REALEC
+to be nearly valueless,to,to,similar_words,,statistics,,,,,,REALEC
+This,this,,similar_words,,statistics,,,,,,REALEC
+collection,collection,,similar_words,,statistics,,,,,,REALEC
+manuscripts,manuscripts,,similar_words,,statistics,,,,,,REALEC
+not,not,,similar_words,,statistics,,,,,,REALEC
+very,very,,similar_words,,statistics,,,,,,REALEC
+Ron had great writing,ron,,similar_words,,statistics,,,,,,REALEC
+I don’t want to sell this antique furniture. I think,i,to,similar_words,,statistics,,,,,,REALEC
+it’s,it,,similar_words,,statistics,,,,,,REALEC
+We decided not to buy that painting because it was,we,to,similar_words,,statistics,,,,,,REALEC
+absolutely,absolutely,,similar_words,,statistics,,,,,,REALEC
+She has years of,she,of,similar_words,,statistics,,,,,,REALEC
+in the computer industry,in,in,similar_words,,statistics,,,,,,REALEC
+The results of this research will be extremely,the,of,similar_words,,statistics,,,,,,REALEC
+for medicine,for,for,similar_words,,statistics,,,,,,REALEC
+His personal,his,,similar_words,,statistics,,,,,,REALEC
+made him a strong leader,made,,similar_words,,statistics,,,,,,REALEC
+The Internet is an,the,,similar_words,,statistics,,,,,,REALEC
+resource for students,resource,for,similar_words,,statistics,,,,,,REALEC
+Gregory finished special courses and got recognized,gregory,,similar_words,,statistics,,,,,,REALEC
+in design,in,in,similar_words,,statistics,,,,,,REALEC
+priceless,priceless,,similar_words,,statistics,,,,,,REALEC
+A priceless collection of vases,a,of,similar_words,,statistics,,,,,,REALEC
+was destroyed,was,,similar_words,,statistics,,,,,,REALEC
+Her knowledge and experience,her,,similar_words,,statistics,,,,,,REALEC
+would make her a priceless,would,,similar_words,,statistics,,,,,,REALEC
+(= extremely useful) asset to the,extremely,to,similar_words,,statistics,,,,,,REALEC
+skills,skills,,similar_words,,statistics,,,,,,REALEC
+The course helped me to gain,the,to,similar_words,,statistics,,,,,,REALEC
+necessary speaking skills,necessary,,similar_words,,statistics,,,,,,REALEC
+qualities,qualities,,similar_words,,statistics,,,,,,REALEC
+personal/leadership qualities,personal,,similar_words,,statistics,,,,,,REALEC
+Do you possess the right personal,do,,similar_words,,statistics,,,,,,REALEC
+qualities to be a teacher,qualities,to,similar_words,,statistics,,,,,,REALEC
+qualifica,qualifica,,similar_words,,statistics,,,,,,REALEC
+tions,tions,,similar_words,,statistics,,,,,,REALEC
+Simon left school with no,simon,with,similar_words,,statistics,,,,,,REALEC
+qualifications,qualifications,,similar_words,,statistics,,,,,,REALEC
+experience опыт,experience,,similar_words,,statistics,,,,,,REALEC
+get/gain experience in sth,get,in,similar_words,,statistics,,,,,,REALEC
+You don’t need any experience to,you,to,similar_words,,statistics,,,,,,REALEC
+work here,work,,similar_words,,statistics,,,,,,REALEC
+I had a bad experience in the last,i,in,similar_words,,statistics,,,,,,REALEC
+place I worked,place,,similar_words,,statistics,,,,,,REALEC
+valuable (2) invaluable valueless priceless skills,valuable,,similar_words,,statistics,,,,,,REALEC
+qualities qualification experience,qualities,,similar_words,,statistics,,,,,,REALEC
+discover/detect/invent/explore/develop,discover,,similar_words,,statistics,,,,,,REALEC
+investigation/research/survey,investigation,,similar_words,,statistics,,,,,,REALEC
+discover,discover,,similar_words,,statistics,,,,,,REALEC
+We had been looking for the,we,for,similar_words,,statistics,,,,,,REALEC
+missing papers all morning and,missing,,similar_words,,statistics,,,,,,REALEC
+finally discovered them in a,finally,in,similar_words,,statistics,,,,,,REALEC
+drawer,drawer,,similar_words,,statistics,,,,,,REALEC
+detect,detect,,similar_words,,statistics,,,,,,REALEC
+to detect a target/ leak/ defect/,to,to,similar_words,,statistics,,,,,,REALEC
+fault,fault,,similar_words,,statistics,,,,,,REALEC
+Financial experts have detected,financial,,similar_words,,statistics,,,,,,REALEC
+signs that the economy is,signs,,similar_words,,statistics,,,,,,REALEC
+beginning to improve,beginning,to,similar_words,,statistics,,,,,,REALEC
+I thought I detected a hint of,i,of,similar_words,,statistics,,,,,,REALEC
+irony in her words,irony,in,similar_words,,statistics,,,,,,REALEC
+invent,invent,,similar_words,,statistics,,,,,,REALEC
+The telephone was invented by,the,by,similar_words,,statistics,,,,,,REALEC
+Alexander Graham Bell,alexander,,similar_words,,statistics,,,,,,REALEC
+But I didn’t invent the story -,but,,similar_words,,statistics,,,,,,REALEC
+everything I told you is true,everything,,similar_words,,statistics,,,,,,REALEC
+explore,explore,,similar_words,,statistics,,,,,,REALEC
+The children have gone,the,,similar_words,,statistics,,,,,,REALEC
+exploring the island,exploring,,similar_words,,statistics,,,,,,REALEC
+Let’s explore this issue/idea,let,,similar_words,,statistics,,,,,,REALEC
+more fully,more,,similar_words,,statistics,,,,,,REALEC
+develop,develop,,similar_words,,statistics,,,,,,REALEC
+This country is rapidly,this,,similar_words,,statistics,,,,,,REALEC
+developing its tourist industry,developing,,similar_words,,statistics,,,,,,REALEC
+investiga,investiga,,similar_words,,statistics,,,,,,REALEC
+tion,tion,,similar_words,,statistics,,,,,,REALEC
+a thorough investigation of the,a,of,similar_words,,statistics,,,,,,REALEC
+"Currently, the individuals who",currently,,similar_words,,statistics,,,,,,REALEC
+might have caused the accident,might,,similar_words,,statistics,,,,,,REALEC
+are subject to/under,are,to under,similar_words,,statistics,,,,,,REALEC
+investigation,investigation,,similar_words,,statistics,,,,,,REALEC
+scientific/medical research,scientific,,similar_words,,statistics,,,,,,REALEC
+a research student/assistant/,a,,similar_words,,statistics,,,,,,REALEC
+laboratory,laboratory,,similar_words,,statistics,,,,,,REALEC
+They are carrying out/,they,out,similar_words,,statistics,,,,,,REALEC
+conducting/doing some,conducting,,similar_words,,statistics,,,,,,REALEC
+fascinating research into/on,fascinating,into on,similar_words,,statistics,,,,,,REALEC
+the language of dolphins,the,of,similar_words,,statistics,,,,,,REALEC
+survey,survey,,similar_words,,statistics,,,,,,REALEC
+A recent survey found/,a,,similar_words,,statistics,,,,,,REALEC
+revealed/showed that 58% of,revealed,of,similar_words,,statistics,,,,,,REALEC
+people did not know where their,people,,similar_words,,statistics,,,,,,REALEC
+heart is,heart,,similar_words,,statistics,,,,,,REALEC
+to conduct/carry out/do a,to,to out,similar_words,,statistics,,,,,,REALEC
+tool,tool,,similar_words,,statistics,,,,,,REALEC
+kitchen/gardening/dental/,kitchen,,similar_words,,statistics,,,,,,REALEC
+machine tools,machine,,similar_words,,statistics,,,,,,REALEC
+a set of tools,a,of,similar_words,,statistics,,,,,,REALEC
+Words are essential tools for,words,for,similar_words,,statistics,,,,,,REALEC
+formulating and,formulating,,similar_words,,statistics,,,,,,REALEC
+communicating thoughts,communicating,,similar_words,,statistics,,,,,,REALEC
+appliance,appliance,,similar_words,,statistics,,,,,,REALEC
+household/kitchen appliances,household,,similar_words,,statistics,,,,,,REALEC
+We stock a wide range of,we,of,similar_words,,statistics,,,,,,REALEC
+"domestic appliances, including",domestic,,similar_words,,statistics,,,,,,REALEC
+fridges and dishwashers,fridges,,similar_words,,statistics,,,,,,REALEC
+domestic electric appliances,domestic,,similar_words,,statistics,,,,,,REALEC
+gadget,gadget,,similar_words,,statistics,,,,,,REALEC
+kitchen gadgets,kitchen,,similar_words,,statistics,,,,,,REALEC
+This expensive car is full of,this,of,similar_words,,statistics,,,,,,REALEC
+gadgets,gadgets,,similar_words,,statistics,,,,,,REALEC
+equip,equip,,similar_words,,statistics,,,,,,REALEC
+ment,ment,,similar_words,,statistics,,,,,,REALEC
+office/camping/safety/kitchen,office,,similar_words,,statistics,,,,,,REALEC
+equipment,equipment,,similar_words,,statistics,,,,,,REALEC
+electrical equipment,electrical,,similar_words,,statistics,,,,,,REALEC
+A computer is the most,a,,similar_words,,statistics,,,,,,REALEC
+important piece of equipment,important,of,similar_words,,statistics,,,,,,REALEC
+you will buy,you,,similar_words,,statistics,,,,,,REALEC
+Our,our,,similar_words,,statistics,,,,,,REALEC
+scientific,scientific,,similar_words,,statistics,,,,,,REALEC
+has,has,,similar_words,,statistics,,,,,,REALEC
+got,got,,similar_words,,statistics,,,,,,REALEC
+the,the,,similar_words,,statistics,,,,,,REALEC
+latest,latest,,similar_words,,statistics,,,,,,REALEC
+Now it is really modern,now,,similar_words,,statistics,,,,,,REALEC
+The best way to,the,to,similar_words,,statistics,,,,,,REALEC
+the countryside is on,the,on,similar_words,,statistics,,,,,,REALEC
+foot,foot,,similar_words,,statistics,,,,,,REALEC
+This crime is still under,this,under,similar_words,,statistics,,,,,,REALEC
+by the police,by,by,similar_words,,statistics,,,,,,REALEC
+Thomas Edison,thomas,,similar_words,,statistics,,,,,,REALEC
+the phonograph,the,,similar_words,,statistics,,,,,,REALEC
+All household,all,,similar_words,,statistics,,,,,,REALEC
+are now on sale in this,are,on in,similar_words,,statistics,,,,,,REALEC
+shop,shop,,similar_words,,statistics,,,,,,REALEC
+The island has,the,,similar_words,,statistics,,,,,,REALEC
+its economy around,its,around,similar_words,,statistics,,,,,,REALEC
+tourism,tourism,,similar_words,,statistics,,,,,,REALEC
+The group carries out,the,out,similar_words,,statistics,,,,,,REALEC
+in the field of,in,in of,similar_words,,statistics,,,,,,REALEC
+geochemistry,geochemistry,,similar_words,,statistics,,,,,,REALEC
+Everyone,everyone,,similar_words,,statistics,,,,,,REALEC
+knows,knows,,similar_words,,statistics,,,,,,REALEC
+that,that,,similar_words,,statistics,,,,,,REALEC
+Christopher,christopher,,similar_words,,statistics,,,,,,REALEC
+Columbus,columbus,,similar_words,,statistics,,,,,,REALEC
+America,america,,similar_words,,statistics,,,,,,REALEC
+You need contemporary gardening,you,,similar_words,,statistics,,,,,,REALEC
+to keep your garden in good condition,to,to in,similar_words,,statistics,,,,,,REALEC
+technical/technological/technology/techniques,technical,,similar_words,,statistics,,,,,,REALEC
+tools,tools,,similar_words,,statistics,,,,,,REALEC
+appliances,appliances,,similar_words,,statistics,,,,,,REALEC
+electric,electric,,similar_words,,statistics,,,,,,REALEC
+an electric blanket/car/,an,,similar_words,,statistics,,,,,,REALEC
+kettle/light,kettle,,similar_words,,statistics,,,,,,REALEC
+an electric drill/razor/,an,,similar_words,,statistics,,,,,,REALEC
+toothbrush,toothbrush,,similar_words,,statistics,,,,,,REALEC
+an electric socket/plug/cable,an,,similar_words,,statistics,,,,,,REALEC
+an electric current,an,,similar_words,,statistics,,,,,,REALEC
+an electric performance,an,,similar_words,,statistics,,,,,,REALEC
+The atmosphere here tonight,the,,similar_words,,statistics,,,,,,REALEC
+is absolutely electric,is,,similar_words,,statistics,,,,,,REALEC
+electrical,electrical,,similar_words,,statistics,,,,,,REALEC
+electrical equipment/goods/,electrical,,similar_words,,statistics,,,,,,REALEC
+devices,devices,,similar_words,,statistics,,,,,,REALEC
+an electrical fuse/circuit/,an,,similar_words,,statistics,,,,,,REALEC
+an electrical engineer/,an,,similar_words,,statistics,,,,,,REALEC
+engineering,engineering,,similar_words,,statistics,,,,,,REALEC
+The fire was caused by an,the,by,similar_words,,statistics,,,,,,REALEC
+electrical fault,electrical,,similar_words,,statistics,,,,,,REALEC
+eligible,eligible,,similar_words,,statistics,,,,,,REALEC
+Only people over 18 are,only,over,similar_words,,statistics,,,,,,REALEC
+eligible to vote,eligible,to,similar_words,,statistics,,,,,,REALEC
+You might be eligible for a,you,for,similar_words,,statistics,,,,,,REALEC
+grant,grant,,similar_words,,statistics,,,,,,REALEC
+illegible,illegible,,similar_words,,statistics,,,,,,REALEC
+His writing is almost illegible,his,,similar_words,,statistics,,,,,,REALEC
+technical,technical,,similar_words,,statistics,,,,,,REALEC
+a technical problem/ hitch/,a,,similar_words,,statistics,,,,,,REALEC
+glitch/fault,glitch,,similar_words,,statistics,,,,,,REALEC
+technical support/expert/,technical,,similar_words,,statistics,,,,,,REALEC
+college,college,,similar_words,,statistics,,,,,,REALEC
+The job requires someone with,the,with,similar_words,,statistics,,,,,,REALEC
+specialized scientific and,specialized,,similar_words,,statistics,,,,,,REALEC
+technical knowledge,technical,,similar_words,,statistics,,,,,,REALEC
+In her performance as the,in,in,similar_words,,statistics,,,,,,REALEC
+Snow Queen she showed great,snow,,similar_words,,statistics,,,,,,REALEC
+technical brilliance,technical,,similar_words,,statistics,,,,,,REALEC
+techno,techno,,similar_words,,statistics,,,,,,REALEC
+logical,logical,,similar_words,,statistics,,,,,,REALEC
+technological progress/,technological,,similar_words,,statistics,,,,,,REALEC
+advances/change,advances,,similar_words,,statistics,,,,,,REALEC
+Technological advances in,technological,in,similar_words,,statistics,,,,,,REALEC
+telecommunications will,telecommunications,,similar_words,,statistics,,,,,,REALEC
+reduce the need for many,reduce,for,similar_words,,statistics,,,,,,REALEC
+people to travel to work,people,to to,similar_words,,statistics,,,,,,REALEC
+technolo,technolo,,similar_words,,statistics,,,,,,REALEC
+high technology/information,high,,similar_words,,statistics,,,,,,REALEC
+technology,technology,,similar_words,,statistics,,,,,,REALEC
+Modern technology is,modern,,similar_words,,statistics,,,,,,REALEC
+"amazing, isn’t it",amazing,,similar_words,,statistics,,,,,,REALEC
+What this country needs is a,what,,similar_words,,statistics,,,,,,REALEC
+long-term policy for,long,for,similar_words,,statistics,,,,,,REALEC
+investment in science and,investment,in,similar_words,,statistics,,,,,,REALEC
+The pianist gave an,the,,similar_words,,statistics,,,,,,REALEC
+performance,performance,,similar_words,,statistics,,,,,,REALEC
+Recent advances in medical,recent,in,similar_words,,statistics,,,,,,REALEC
+have,have,,similar_words,,statistics,,,,,,REALEC
+saved countless lives,saved,,similar_words,,statistics,,,,,,REALEC
+We learned some,we,,similar_words,,statistics,,,,,,REALEC
+for relieving stress,for,for,similar_words,,statistics,,,,,,REALEC
+Are you,are,,similar_words,,statistics,,,,,,REALEC
+for early retirement leave,for,for,similar_words,,statistics,,,,,,REALEC
+You can’t stop,you,,similar_words,,statistics,,,,,,REALEC
+progress even if you,progress,,similar_words,,statistics,,,,,,REALEC
+want to do it,want,to,similar_words,,statistics,,,,,,REALEC
+engineers design new and better,engineers,,similar_words,,statistics,,,,,,REALEC
+electronics,electronics,,similar_words,,statistics,,,,,,REALEC
+If you have any problems with your new computer,if,with,similar_words,,statistics,,,,,,REALEC
+we offer 24-hour,we,,similar_words,,statistics,,,,,,REALEC
+support,support,,similar_words,,statistics,,,,,,REALEC
+Megan’s handwriting is absolutely,megan,,similar_words,,statistics,,,,,,REALEC
+convenient/comfortable/suitable,convenient,,similar_words,,statistics,,,,,,REALEC
+acting/ dance/ relaxation,acting,,similar_words,,statistics,,,,,,REALEC
+technique,technique,,similar_words,,statistics,,,,,,REALEC
+statistical/analytical/surgical,statistical,,similar_words,,statistics,,,,,,REALEC
+techniques,techniques,,similar_words,,statistics,,,,,,REALEC
+We have developed a new,we,,similar_words,,statistics,,,,,,REALEC
+technique for detecting,technique,for,similar_words,,statistics,,,,,,REALEC
+errors,errors,,similar_words,,statistics,,,,,,REALEC
+technological,technological,,similar_words,,statistics,,,,,,REALEC
+absolute/perfect pitch,absolute,,similar_words,,statistics,,,,,,REALEC
+She sings well since she’s got,she,,similar_words,,statistics,,,,,,REALEC
+perfect pitch,perfect,,similar_words,,statistics,,,,,,REALEC
+The piano and organ were tuned,the,,similar_words,,statistics,,,,,,REALEC
+to the same pitch (= note),to,to,similar_words,,statistics,,,,,,REALEC
+voice,voice,,similar_words,,statistics,,,,,,REALEC
+in a low/deep/bored voice,in,in,similar_words,,statistics,,,,,,REALEC
+a low-pitched/high-pitched,a,,similar_words,,statistics,,,,,,REALEC
+She has a loud/quiet/soft voice,she,,similar_words,,statistics,,,,,,REALEC
+She lowered her voice to a,she,to,similar_words,,statistics,,,,,,REALEC
+whisper,whisper,,similar_words,,statistics,,,,,,REALEC
+vocal,vocal,,similar_words,,statistics,,,,,,REALEC
+Who is on backing vocals,who,on,similar_words,,statistics,,,,,,REALEC
+The vocals are shared by two,the,by,similar_words,,statistics,,,,,,REALEC
+members of the band,members,of,similar_words,,statistics,,,,,,REALEC
+the classical world,the,,similar_words,,statistics,,,,,,REALEC
+classical music/composers,classical,,similar_words,,statistics,,,,,,REALEC
+classical art/literature/,classical,,similar_words,,statistics,,,,,,REALEC
+mythology,mythology,,similar_words,,statistics,,,,,,REALEC
+Do you enjoy classical music or,do,,similar_words,,statistics,,,,,,REALEC
+pop music,pop,,similar_words,,statistics,,,,,,REALEC
+classic,classic,,similar_words,,statistics,,,,,,REALEC
+He had all the classic symptoms,he,,similar_words,,statistics,,,,,,REALEC
+of flu,of,of,similar_words,,statistics,,,,,,REALEC
+She wore a classic navy suit,she,,similar_words,,statistics,,,,,,REALEC
+conven,conven,,similar_words,,statistics,,,,,,REALEC
+ient,ient,,similar_words,,statistics,,,,,,REALEC
+Our local shop has very,our,,similar_words,,statistics,,,,,,REALEC
+convenient opening hours,convenient,,similar_words,,statistics,,,,,,REALEC
+A bike’s a very convenient way,a,,similar_words,,statistics,,,,,,REALEC
+of getting around,of,of around,similar_words,,statistics,,,,,,REALEC
+fortable,fortable,,similar_words,,statistics,,,,,,REALEC
+a comfortable bed/sofa/shoes/,a,,similar_words,,statistics,,,,,,REALEC
+trousers,trousers,,similar_words,,statistics,,,,,,REALEC
+I don’t feel comfortable in high,i,in,similar_words,,statistics,,,,,,REALEC
+heels,heels,,similar_words,,statistics,,,,,,REALEC
+Do sit down and make yourself,do,down,similar_words,,statistics,,,,,,REALEC
+comfortable,comfortable,,similar_words,,statistics,,,,,,REALEC
+suitable,suitable,,similar_words,,statistics,,,,,,REALEC
+The film is suitable for children,the,for,similar_words,,statistics,,,,,,REALEC
+My mother doesn’t let me wear,my,,similar_words,,statistics,,,,,,REALEC
+short skirts to church - she,short,to,similar_words,,statistics,,,,,,REALEC
+doesn’t think they’re suitable,doesn,,similar_words,,statistics,,,,,,REALEC
+enough in this chair,enough,in,similar_words,,statistics,,,,,,REALEC
+Can I remove the,can,,similar_words,,statistics,,,,,,REALEC
+from a recording to,from,from to,similar_words,,statistics,,,,,,REALEC
+make a Karaoke track,make,,similar_words,,statistics,,,,,,REALEC
+If it’s,if,,similar_words,,statistics,,,,,,REALEC
+call me tomorrow before noon,call,before,similar_words,,statistics,,,,,,REALEC
+She,she,,similar_words,,statistics,,,,,,REALEC
+plays,plays,,similar_words,,statistics,,,,,,REALEC
+piano,piano,,similar_words,,statistics,,,,,,REALEC
+she,she,,similar_words,,statistics,,,,,,REALEC
+absolute,absolute,,similar_words,,statistics,,,,,,REALEC
+Hamlet is a,hamlet,,similar_words,,statistics,,,,,,REALEC
+example of a tragedy,example,of,similar_words,,statistics,,,,,,REALEC
+These toys are not,these,,similar_words,,statistics,,,,,,REALEC
+for children under,for,for under,similar_words,,statistics,,,,,,REALEC
+five,five,,similar_words,,statistics,,,,,,REALEC
+I’ve got a cold and I think I’m losing my,i,,similar_words,,statistics,,,,,,REALEC
+I can’t talk at all,i,at,similar_words,,statistics,,,,,,REALEC
+I don’t mind listening to,i,to,similar_words,,statistics,,,,,,REALEC
+music,music,,similar_words,,statistics,,,,,,REALEC
+collect/pick/gather; specially/especially,collect,,similar_words,,statistics,,,,,,REALEC
+pitch voice vocal classical classic convenient,pitch,,similar_words,,statistics,,,,,,REALEC
+comfortable suitable,comfortable,,similar_words,,statistics,,,,,,REALEC
+opportunity,opportunity,,similar_words,,statistics,,,,,,REALEC
+equal opportunities,equal,,similar_words,,statistics,,,,,,REALEC
+I’d like to take this,i,to,similar_words,,statistics,,,,,,REALEC
+opportunity to thank all of,opportunity,to of,similar_words,,statistics,,,,,,REALEC
+you for coming,you,for,similar_words,,statistics,,,,,,REALEC
+I was never given the,i,,similar_words,,statistics,,,,,,REALEC
+opportunity of going to,opportunity,of to,similar_words,,statistics,,,,,,REALEC
+possibility,possibility,,similar_words,,statistics,,,,,,REALEC
+The forecast said that there’s,the,,similar_words,,statistics,,,,,,REALEC
+a possibility of snow tonight,a,of,similar_words,,statistics,,,,,,REALEC
+‘Have you decided what to,have,to,similar_words,,statistics,,,,,,REALEC
+"do’ ‘No, I’m still",do,,similar_words,,statistics,,,,,,REALEC
+considering various,considering,,similar_words,,statistics,,,,,,REALEC
+possibilities.’,possibilities,,similar_words,,statistics,,,,,,REALEC
+specially,specially,,similar_words,,statistics,,,,,,REALEC
+This is a specially good wine,this,,similar_words,,statistics,,,,,,REALEC
+These coats are specially,these,,similar_words,,statistics,,,,,,REALEC
+treated to be water repellent,treated,to,similar_words,,statistics,,,,,,REALEC
+When did you start,when,,similar_words,,statistics,,,,,,REALEC
+stamps,stamps,,similar_words,,statistics,,,,,,REALEC
+She has got a wheelchair that was,she,,similar_words,,statistics,,,,,,REALEC
+made for her,made,for,similar_words,,statistics,,,,,,REALEC
+One,,,similar_words,,statistics,,,,,,REALEC
+for the weekend is to rent a car,for,for to,similar_words,,statistics,,,,,,REALEC
+and go to the beach,and,to,similar_words,,statistics,,,,,,REALEC
+Football fans,football,,similar_words,,statistics,,,,,,REALEC
+around the TV in the,around,around in,similar_words,,statistics,,,,,,REALEC
+corner of the bar and watched the match,corner,of,similar_words,,statistics,,,,,,REALEC
+Young people,young,,similar_words,,statistics,,,,,,REALEC
+"teenagers, enjoy",teenagers,,similar_words,,statistics,,,,,,REALEC
+extreme sports,extreme,,similar_words,,statistics,,,,,,REALEC
+Modern machines can,modern,,similar_words,,statistics,,,,,,REALEC
+the fruit from,the,from,similar_words,,statistics,,,,,,REALEC
+the trees,the,,similar_words,,statistics,,,,,,REALEC
+People have more leisure,people,,similar_words,,statistics,,,,,,REALEC
+nowadays,nowadays,,similar_words,,statistics,,,,,,REALEC
+I went to several libraries to,i,to to,similar_words,,statistics,,,,,,REALEC
+information about my hobby,information,about,similar_words,,statistics,,,,,,REALEC
+especially,especially,,similar_words,,statistics,,,,,,REALEC
+She’s not especially,she,,similar_words,,statistics,,,,,,REALEC
+interested in sport,interested,in,similar_words,,statistics,,,,,,REALEC
+It was a very cold house,it,,similar_words,,statistics,,,,,,REALEC
+especially in winter,especially,in,similar_words,,statistics,,,,,,REALEC
+pick,pick,,similar_words,,statistics,,,,,,REALEC
+The spent the summer,the,,similar_words,,statistics,,,,,,REALEC
+picking strawberries,picking,,similar_words,,statistics,,,,,,REALEC
+The following season he was,the,,similar_words,,statistics,,,,,,REALEC
+picked for the national team,picked,for,similar_words,,statistics,,,,,,REALEC
+collect,collect,,similar_words,,statistics,,,,,,REALEC
+A lot of families collect,a,of,similar_words,,statistics,,,,,,REALEC
+newspapers for recycling,newspapers,for,similar_words,,statistics,,,,,,REALEC
+He collects stamps,he,,similar_words,,statistics,,,,,,REALEC
+gather,gather,,similar_words,,statistics,,,,,,REALEC
+Our report is based on,our,on,similar_words,,statistics,,,,,,REALEC
+information gathered from,information,from,similar_words,,statistics,,,,,,REALEC
+all parts of the country,all,of,similar_words,,statistics,,,,,,REALEC
+A crowd had gathered to hear,a,to,similar_words,,statistics,,,,,,REALEC
+her speak,her,,similar_words,,statistics,,,,,,REALEC
+refuse/deny; been in/been to/gone to,refuse,to to,similar_words,,statistics,,,,,,REALEC
+audience,audience,,similar_words,,statistics,,,,,,REALEC
+sympathetic/enthusiastic/,sympathetic,,similar_words,,statistics,,,,,,REALEC
+cold/responsive audience,cold,,similar_words,,statistics,,,,,,REALEC
+The audience was/were,the,,similar_words,,statistics,,,,,,REALEC
+clearly delighted with the,clearly,with,similar_words,,statistics,,,,,,REALEC
+The series has attracted,the,,similar_words,,statistics,,,,,,REALEC
+an audience of more than,an,of,similar_words,,statistics,,,,,,REALEC
+10 million,million,,similar_words,,statistics,,,,,,REALEC
+viewer,viewer,,similar_words,,statistics,,,,,,REALEC
+А painting showing a woman,painting,,similar_words,,statistics,,,,,,REALEC
+looking directly at the viewer,looking,at,similar_words,,statistics,,,,,,REALEC
+Millions of viewers will be,millions,of,similar_words,,statistics,,,,,,REALEC
+glued to their sets for this,glued,to for,similar_words,,statistics,,,,,,REALEC
+match,match,,similar_words,,statistics,,,,,,REALEC
+The final game attracted,the,,similar_words,,statistics,,,,,,REALEC
+"a crowd of over 50,000",a,of over,similar_words,,statistics,,,,,,REALEC
+spectators,spectators,,similar_words,,statistics,,,,,,REALEC
+cast,cast,,similar_words,,statistics,,,,,,REALEC
+Part of the film’s success lies,part,of,similar_words,,statistics,,,,,,REALEC
+in the strength of the,in,in of,similar_words,,statistics,,,,,,REALEC
+supporting cast (= the actors,supporting,,similar_words,,statistics,,,,,,REALEC
+who are not playing the main,who,,similar_words,,statistics,,,,,,REALEC
+parts),parts,,similar_words,,statistics,,,,,,REALEC
+refuse,refuse,,similar_words,,statistics,,,,,,REALEC
+On cold mornings the car,on,on,similar_words,,statistics,,,,,,REALEC
+always refuses to start,always,to,similar_words,,statistics,,,,,,REALEC
+deny,deny,,similar_words,,statistics,,,,,,REALEC
+to deny categorically/flatly/,to,to,similar_words,,statistics,,,,,,REALEC
+strongly,strongly,,similar_words,,statistics,,,,,,REALEC
+He denies committing fraud,he,,similar_words,,statistics,,,,,,REALEC
+It is hard to deny that Bob is,it,to,similar_words,,statistics,,,,,,REALEC
+a good man,a,,similar_words,,statistics,,,,,,REALEC
+Her request for time off work,her,for off,similar_words,,statistics,,,,,,REALEC
+was denied,was,,similar_words,,statistics,,,,,,REALEC
+have/has,have,,similar_words,,statistics,,,,,,REALEC
+been to,been,to,similar_words,,statistics,,,,,,REALEC
+My father has been to London,my,to,similar_words,,statistics,,,,,,REALEC
+twice this year. I don’t think,twice,,similar_words,,statistics,,,,,,REALEC
+he’ll go there again,he,,similar_words,,statistics,,,,,,REALEC
+"After the final performance, the director threw a",after,after,similar_words,,statistics,,,,,,REALEC
+party for the,party,for,similar_words,,statistics,,,,,,REALEC
+She is a regular,she,,similar_words,,statistics,,,,,,REALEC
+of the evening news,of,of,similar_words,,statistics,,,,,,REALEC
+My English pen friend has,my,,similar_words,,statistics,,,,,,REALEC
+Moscow,moscow,,similar_words,,statistics,,,,,,REALEC
+for two days only so he hasn’t seen much yet,for,for,similar_words,,statistics,,,,,,REALEC
+The concert attracted a large,the,,similar_words,,statistics,,,,,,REALEC
+The postman was accused of stealing money from the,the,of from,similar_words,,statistics,,,,,,REALEC
+post office but he,post,,similar_words,,statistics,,,,,,REALEC
+everything,everything,,similar_words,,statistics,,,,,,REALEC
+We can have a party tomorrow as my parents have,we,,similar_words,,statistics,,,,,,REALEC
+London on a business trip,london,on,similar_words,,statistics,,,,,,REALEC
+The,the,,similar_words,,statistics,,,,,,REALEC
+lining the road cheered the racers on,lining,on,similar_words,,statistics,,,,,,REALEC
+"He offered to paint my house, but I",he,to,similar_words,,statistics,,,,,,REALEC
+hire him,hire,,similar_words,,statistics,,,,,,REALEC
+We have already,we,,similar_words,,statistics,,,,,,REALEC
+Great Britain. Let’s,great,,similar_words,,statistics,,,,,,REALEC
+travel to the USA,travel,to,similar_words,,statistics,,,,,,REALEC
+room/space,room,,similar_words,,statistics,,,,,,REALEC
+gone to,gone,to,similar_words,,statistics,,,,,,REALEC
+Mr. Smith has gone to,mr,to,similar_words,,statistics,,,,,,REALEC
+London. I think he’ll be back,london,,similar_words,,statistics,,,,,,REALEC
+in a week,in,in,similar_words,,statistics,,,,,,REALEC
+been in,been,in,similar_words,,statistics,,,,,,REALEC
+Mr. Smith has already been in,mr,in,similar_words,,statistics,,,,,,REALEC
+London for three days,london,for,similar_words,,statistics,,,,,,REALEC
+spectator,spectator,,similar_words,,statistics,,,,,,REALEC
+suit,suit,,similar_words,,statistics,,,,,,REALEC
+This dress looks nice. It really,this,,similar_words,,statistics,,,,,,REALEC
+suits you!,suits,,similar_words,,statistics,,,,,,REALEC
+fit,fit,,similar_words,,statistics,,,,,,REALEC
+"I like the suit, but the jacket",i,,similar_words,,statistics,,,,,,REALEC
+doesn’t fit me. It’s too big,doesn,,similar_words,,statistics,,,,,,REALEC
+She wore a green dress and a hat,she,,similar_words,,statistics,,,,,,REALEC
+to match,to,to,similar_words,,statistics,,,,,,REALEC
+This glove matches the one that,this,,similar_words,,statistics,,,,,,REALEC
+was found at the crime scene,was,at,similar_words,,statistics,,,,,,REALEC
+alone,alone,,similar_words,,statistics,,,,,,REALEC
+She was all alone in a dark,she,in,similar_words,,statistics,,,,,,REALEC
+forest,forest,,similar_words,,statistics,,,,,,REALEC
+Was the killer acting alone,was,,similar_words,,statistics,,,,,,REALEC
+lonely,lonely,,similar_words,,statistics,,,,,,REALEC
+She has no friends so she feels,she,,similar_words,,statistics,,,,,,REALEC
+lone,lone,,similar_words,,statistics,,,,,,REALEC
+a lone house in the Berkshire,a,in,similar_words,,statistics,,,,,,REALEC
+moors,moors,,similar_words,,statistics,,,,,,REALEC
+room,room,,similar_words,,statistics,,,,,,REALEC
+a spare/private/rest room,a,,similar_words,,statistics,,,,,,REALEC
+She’s upstairs in her room,she,in,similar_words,,statistics,,,,,,REALEC
+There isn’t much room in here,there,in,similar_words,,statistics,,,,,,REALEC
+Is there room for one more in,is,for in,similar_words,,statistics,,,,,,REALEC
+your car,your,,similar_words,,statistics,,,,,,REALEC
+There was just enough room for,there,for,similar_words,,statistics,,,,,,REALEC
+them all to sit down,them,to down,similar_words,,statistics,,,,,,REALEC
+This table takes up too much,this,up,similar_words,,statistics,,,,,,REALEC
+space,space,,similar_words,,statistics,,,,,,REALEC
+empty/parking/storage space,empty,,similar_words,,statistics,,,,,,REALEC
+I’ve got to make space for,i,to for,similar_words,,statistics,,,,,,REALEC
+Mark’s things,mark,,similar_words,,statistics,,,,,,REALEC
+He was absent-mindedly staring,he,,similar_words,,statistics,,,,,,REALEC
+into space,into,into,similar_words,,statistics,,,,,,REALEC
+I love the wide open spaces,i,,similar_words,,statistics,,,,,,REALEC
+(= large areas of countryside) of,large,of of,similar_words,,statistics,,,,,,REALEC
+central Australia,central,,similar_words,,statistics,,,,,,REALEC
+We replaced the bath with a shower to create more,we,with to,similar_words,,statistics,,,,,,REALEC
+She gets,she,,similar_words,,statistics,,,,,,REALEC
+now that all her friends have,now,,similar_words,,statistics,,,,,,REALEC
+left the village,left,,similar_words,,statistics,,,,,,REALEC
+This suit is the right size for you. It,this,for,similar_words,,statistics,,,,,,REALEC
+you perfectly,you,,similar_words,,statistics,,,,,,REALEC
+must decide what to do. No one,must,to,similar_words,,statistics,,,,,,REALEC
+else can do it for her,else,for,similar_words,,statistics,,,,,,REALEC
+There was a large empty,there,,similar_words,,statistics,,,,,,REALEC
+on the,on,on,similar_words,,statistics,,,,,,REALEC
+second floor,second,,similar_words,,statistics,,,,,,REALEC
+Does this shirt,does,,similar_words,,statistics,,,,,,REALEC
+these trousers,these,,similar_words,,statistics,,,,,,REALEC
+Police spokesman said that a/an,police,,similar_words,,statistics,,,,,,REALEC
+gunman was responsible for the shooting,gunman,for,similar_words,,statistics,,,,,,REALEC
+You should wear more red. This colour,you,,similar_words,,statistics,,,,,,REALEC
+you very well,you,,similar_words,,statistics,,,,,,REALEC
+suit,suit,,phrasal_verbs,,statistics,,,,,,REALEC
+fit,fit,,phrasal_verbs,,statistics,,,,,,REALEC
+match,match,,phrasal_verbs,,statistics,,,,,,REALEC
+alone,alone,,phrasal_verbs,,statistics,,,,,,REALEC
+lonely,lonely,,phrasal_verbs,,statistics,,,,,,REALEC
+lone,lone,,phrasal_verbs,,statistics,,,,,,REALEC
+space,space,,phrasal_verbs,,statistics,,,,,,REALEC
+room,room,,phrasal_verbs,,statistics,,,,,,REALEC
+"If I come across an unknown English word, I look it",if,across,phrasal_verbs,,statistics,,,,,,REALEC
+in a dictionary,in,in,phrasal_verbs,,statistics,,,,,,REALEC
+Look,look,,phrasal_verbs,,statistics,,,,,,REALEC
+this exercise and underline all,this,,phrasal_verbs,,statistics,,,,,,REALEC
+irregular verbs in it,irregular,in,phrasal_verbs,,statistics,,,,,,REALEC
+My sister is looking,my,,phrasal_verbs,,statistics,,,,,,REALEC
+an English language,an,,phrasal_verbs,,statistics,,,,,,REALEC
+course to improve her speaking skills,course,to,phrasal_verbs,,statistics,,,,,,REALEC
+I look,i,,phrasal_verbs,,statistics,,,,,,REALEC
+to hearing from you soon,to,to from,phrasal_verbs,,statistics,,,,,,REALEC
+! There’s a car coming,there,,phrasal_verbs,,statistics,,,,,,REALEC
+He’s an excellent teacher. All his pupils look,he,,phrasal_verbs,,statistics,,,,,,REALEC
+to him,to,to,phrasal_verbs,,statistics,,,,,,REALEC
+We usually look,we,,phrasal_verbs,,statistics,,,,,,REALEC
+the neighbours’ dog,the,,phrasal_verbs,,statistics,,,,,,REALEC
+while they’re on holiday,while,on,phrasal_verbs,,statistics,,,,,,REALEC
+my dictionary! Someone has torn it!,my,,phrasal_verbs,,statistics,,,,,,REALEC
+look,look,,phrasal_verbs,,statistics,,,,,,REALEC
+after,after,after,phrasal_verbs,,statistics,,,,,,REALEC
+back,back,,phrasal_verbs,,statistics,,,,,,REALEC
+down on,down,down on,phrasal_verbs,,statistics,,,,,,REALEC
+for,for,for,phrasal_verbs,,statistics,,,,,,REALEC
+forward,forward,,phrasal_verbs,,statistics,,,,,,REALEC
+into,into,into,phrasal_verbs,,statistics,,,,,,REALEC
+out,out,out,phrasal_verbs,,statistics,,,,,,REALEC
+over,over,over,phrasal_verbs,,statistics,,,,,,REALEC
+through,through,through,phrasal_verbs,,statistics,,,,,,REALEC
+up to,up,up to,phrasal_verbs,,statistics,,,,,,REALEC
+after at for forward out through up (2),after,through up,phrasal_verbs,,statistics,,,,,,REALEC
+It turned,it,,phrasal_verbs,,statistics,,,,,,REALEC
+that she had known him since,that,,phrasal_verbs,,statistics,,,,,,REALEC
+childhood,childhood,,phrasal_verbs,,statistics,,,,,,REALEC
+Will you turn,will,,phrasal_verbs,,statistics,,,,,,REALEC
+"the television, please It’s",the,,phrasal_verbs,,statistics,,,,,,REALEC
+time for my favourite soap,time,for,phrasal_verbs,,statistics,,,,,,REALEC
+turn,turn,,phrasal_verbs,,statistics,,,,,,REALEC
+against,against,against,phrasal_verbs,,statistics,,,,,,REALEC
+around/,around,around,phrasal_verbs,,statistics,,,,,,REALEC
+round,round,,phrasal_verbs,,statistics,,,,,,REALEC
+away,away,,phrasal_verbs,,statistics,,,,,,REALEC
+down,down,down,phrasal_verbs,,statistics,,,,,,REALEC
+off,off,off,phrasal_verbs,,statistics,,,,,,REALEC
+She turned,she,,phrasal_verbs,,statistics,,,,,,REALEC
+at my house late one night,at,at,phrasal_verbs,,statistics,,,,,,REALEC
+His first novel was turned,his,,phrasal_verbs,,statistics,,,,,,REALEC
+a television serial,a,,phrasal_verbs,,statistics,,,,,,REALEC
+This programme is really boring. Let’s turn,this,,phrasal_verbs,,statistics,,,,,,REALEC
+to another channel,to,to,phrasal_verbs,,statistics,,,,,,REALEC
+Don’t forget to turn,don,to,phrasal_verbs,,statistics,,,,,,REALEC
+your computer when,your,,phrasal_verbs,,statistics,,,,,,REALEC
+you leave home,you,,phrasal_verbs,,statistics,,,,,,REALEC
+"Her family lived a long way away, and she had no one",her,,phrasal_verbs,,statistics,,,,,,REALEC
+to turn,to,to,phrasal_verbs,,statistics,,,,,,REALEC
+for advice,for,for,phrasal_verbs,,statistics,,,,,,REALEC
+He turned,he,,phrasal_verbs,,statistics,,,,,,REALEC
+the job because it involved too,the,,phrasal_verbs,,statistics,,,,,,REALEC
+much travelling,much,,phrasal_verbs,,statistics,,,,,,REALEC
+about,about,about,phrasal_verbs,,statistics,,,,,,REALEC
+along,along,along,phrasal_verbs,,statistics,,,,,,REALEC
+aside,aside,,phrasal_verbs,,statistics,,,,,,REALEC
+in for,in,in for,phrasal_verbs,,statistics,,,,,,REALEC
+Remember to go,remember,to,phrasal_verbs,,statistics,,,,,,REALEC
+your essay checking for,your,for,phrasal_verbs,,statistics,,,,,,REALEC
+grammar and spelling mistakes before you hand it in,grammar,before in,phrasal_verbs,,statistics,,,,,,REALEC
+to the teacher,to,to,phrasal_verbs,,statistics,,,,,,REALEC
+That bag really goes,that,,phrasal_verbs,,statistics,,,,,,REALEC
+your shoes,your,,phrasal_verbs,,statistics,,,,,,REALEC
+I’ll just go and find out what’s going,i,out,phrasal_verbs,,statistics,,,,,,REALEC
+outside,outside,,phrasal_verbs,,statistics,,,,,,REALEC
+He is planning to go,he,to,phrasal_verbs,,statistics,,,,,,REALEC
+for politics after,for,for after,phrasal_verbs,,statistics,,,,,,REALEC
+graduating from university,graduating,from,phrasal_verbs,,statistics,,,,,,REALEC
+Please close the door as you go,please,,phrasal_verbs,,statistics,,,,,,REALEC
+I’d rather not go,i,,phrasal_verbs,,statistics,,,,,,REALEC
+detail now. Can we,detail,,phrasal_verbs,,statistics,,,,,,REALEC
+discuss it later,discuss,,phrasal_verbs,,statistics,,,,,,REALEC
+Stop talking and go,stop,,phrasal_verbs,,statistics,,,,,,REALEC
+writing!,writing,,phrasal_verbs,,statistics,,,,,,REALEC
+This bacon smells awful. I think it’s gone,this,,phrasal_verbs,,statistics,,,,,,REALEC
+"начать действие (go to sleep, go to work",go,to to,phrasal_verbs,,statistics,,,,,,REALEC
+go to war),go,to,phrasal_verbs,,statistics,,,,,,REALEC
+with,with,with,phrasal_verbs,,statistics,,,,,,REALEC
+without,without,without,phrasal_verbs,,statistics,,,,,,REALEC
+in into off on (2) out over with,in,over with,phrasal_verbs,,statistics,,,,,,REALEC
+bring,bring,,phrasal_verbs,,statistics,,,,,,REALEC
+around/ round,around,around,phrasal_verbs,,statistics,,,,,,REALEC
+together,together,,phrasal_verbs,,statistics,,,,,,REALEC
+grow,grow,,phrasal_verbs,,statistics,,,,,,REALEC
+(from someone) отдаляться,from,from,phrasal_verbs,,statistics,,,,,,REALEC
+A little friendly competition is a good way to bring,a,to,phrasal_verbs,,statistics,,,,,,REALEC
+the family,the,,phrasal_verbs,,statistics,,,,,,REALEC
+Ann never saw her father while she was growing,ann,,phrasal_verbs,,statistics,,,,,,REALEC
+these,these,,phrasal_verbs,,statistics,,,,,,REALEC
+photographs,photographs,,phrasal_verbs,,statistics,,,,,,REALEC
+any,any,,phrasal_verbs,,statistics,,,,,,REALEC
+memories,memories,,phrasal_verbs,,statistics,,,,,,REALEC
+Have you heard the news They’ve brought the,have,,phrasal_verbs,,statistics,,,,,,REALEC
+to 5 p.m,to,to,phrasal_verbs,,statistics,,,,,,REALEC
+I’ve grown,i,,phrasal_verbs,,statistics,,,,,,REALEC
+my old clothes,my,,phrasal_verbs,,statistics,,,,,,REALEC
+Jane has grown,jane,,phrasal_verbs,,statistics,,,,,,REALEC
+a beautiful woman,a,,phrasal_verbs,,statistics,,,,,,REALEC
+John’s parents died when he was young and he was,john,,phrasal_verbs,,statistics,,,,,,REALEC
+brought,brought,,phrasal_verbs,,statistics,,,,,,REALEC
+by his aunt,by,by,phrasal_verbs,,statistics,,,,,,REALEC
+The new house slowly began to grow,the,to,phrasal_verbs,,statistics,,,,,,REALEC
+her,her,,phrasal_verbs,,statistics,,,,,,REALEC
+back forward into on out of together up (2),back,of up,phrasal_verbs,,statistics,,,,,,REALEC
+come across,come,across,phrasal_verbs,,statistics,,,,,,REALEC
+between,between,between,phrasal_verbs,,statistics,,,,,,REALEC
+from,from,from,phrasal_verbs,,statistics,,,,,,REALEC
+She was twenty when she first fell,she,,phrasal_verbs,,statistics,,,,,,REALEC
+love,love,,phrasal_verbs,,statistics,,,,,,REALEC
+Mark has come,mark,,phrasal_verbs,,statistics,,,,,,REALEC
+with a new idea for our,with,with for,phrasal_verbs,,statistics,,,,,,REALEC
+product,product,,phrasal_verbs,,statistics,,,,,,REALEC
+My sister is falling,my,,phrasal_verbs,,statistics,,,,,,REALEC
+with her school work,with,with,phrasal_verbs,,statistics,,,,,,REALEC
+Luca comes,luca,,phrasal_verbs,,statistics,,,,,,REALEC
+Italy,italy,,phrasal_verbs,,statistics,,,,,,REALEC
+come out,come,out,phrasal_verbs,,statistics,,,,,,REALEC
+up with,up,up with,phrasal_verbs,,statistics,,,,,,REALEC
+fall,fall,,phrasal_verbs,,statistics,,,,,,REALEC
+apart,apart,,phrasal_verbs,,statistics,,,,,,REALEC
+behind,behind,behind,phrasal_verbs,,statistics,,,,,,REALEC
+across behind between for from in out up,across,out up,phrasal_verbs,,statistics,,,,,,REALEC
+If your friend comes,if,,phrasal_verbs,,statistics,,,,,,REALEC
+you and your,you,,phrasal_verbs,,statistics,,,,,,REALEC
+"girlfriend, you’ll feel betrayed",girlfriend,,phrasal_verbs,,statistics,,,,,,REALEC
+He fell,he,,phrasal_verbs,,statistics,,,,,,REALEC
+Jane when they were together,jane,,phrasal_verbs,,statistics,,,,,,REALEC
+at a music camp,at,at,phrasal_verbs,,statistics,,,,,,REALEC
+I had fallen,i,,phrasal_verbs,,statistics,,,,,,REALEC
+with my parents,with,with,phrasal_verbs,,statistics,,,,,,REALEC
+Have you ever come,have,,phrasal_verbs,,statistics,,,,,,REALEC
+such a horrible,such,,phrasal_verbs,,statistics,,,,,,REALEC
+person in all your life,person,in,phrasal_verbs,,statistics,,,,,,REALEC
+give,give,,phrasal_verbs,,statistics,,,,,,REALEC
+work,work,,phrasal_verbs,,statistics,,,,,,REALEC
+Paul works,paul,,phrasal_verbs,,statistics,,,,,,REALEC
+at a local gym two or three,at,at,phrasal_verbs,,statistics,,,,,,REALEC
+times a week,times,,phrasal_verbs,,statistics,,,,,,REALEC
+His parents finally persuaded him to give,his,to,phrasal_verbs,,statistics,,,,,,REALEC
+boxing,boxing,,phrasal_verbs,,statistics,,,,,,REALEC
+We worked,we,,phrasal_verbs,,statistics,,,,,,REALEC
+an immense appetite climbing,an,,phrasal_verbs,,statistics,,,,,,REALEC
+in the mountains,in,in,phrasal_verbs,,statistics,,,,,,REALEC
+Mary tried to smile but her voice gave her emotions,mary,to,phrasal_verbs,,statistics,,,,,,REALEC
+She usually works,she,,phrasal_verbs,,statistics,,,,,,REALEC
+her extra energy by,her,by,phrasal_verbs,,statistics,,,,,,REALEC
+going for a run,going,for,phrasal_verbs,,statistics,,,,,,REALEC
+Has she given you your tennis racket,has,,phrasal_verbs,,statistics,,,,,,REALEC
+yet,yet,,phrasal_verbs,,statistics,,,,,,REALEC
+The champion refused to give,the,to,phrasal_verbs,,statistics,,,,,,REALEC
+and went,and,,phrasal_verbs,,statistics,,,,,,REALEC
+on to win the set,on,on to,phrasal_verbs,,statistics,,,,,,REALEC
+If she worked,if,,phrasal_verbs,,statistics,,,,,,REALEC
+"improving her game, she",improving,,phrasal_verbs,,statistics,,,,,,REALEC
+could be a champion,could,,phrasal_verbs,,statistics,,,,,,REALEC
+at away back in off out up (2),at,out up,phrasal_verbs,,statistics,,,,,,REALEC
+take after,take,after,phrasal_verbs,,statistics,,,,,,REALEC
+"(account/ consideration) учесть, принять во",account,,phrasal_verbs,,statistics,,,,,,REALEC
+Collecting stamps takes,collecting,,phrasal_verbs,,statistics,,,,,,REALEC
+a lot of time,a,of,phrasal_verbs,,statistics,,,,,,REALEC
+I spent an hour filling,i,,phrasal_verbs,,statistics,,,,,,REALEC
+the application,the,,phrasal_verbs,,statistics,,,,,,REALEC
+form,form,,phrasal_verbs,,statistics,,,,,,REALEC
+My watch stopped so the watchmaker took it,my,,phrasal_verbs,,statistics,,,,,,REALEC
+and cleaned,and,,phrasal_verbs,,statistics,,,,,,REALEC
+His singing career has just begun to take,his,to,phrasal_verbs,,statistics,,,,,,REALEC
+I’ve taken,i,,phrasal_verbs,,statistics,,,,,,REALEC
+going for a walk in the,going,for in,phrasal_verbs,,statistics,,,,,,REALEC
+morning. It’s so relaxing!,morning,,phrasal_verbs,,statistics,,,,,,REALEC
+"As she read the poem, their eyes filled",as,,phrasal_verbs,,statistics,,,,,,REALEC
+with tears,with,with,phrasal_verbs,,statistics,,,,,,REALEC
+Guess what! Chris has taken,guess,,phrasal_verbs,,statistics,,,,,,REALEC
+photography,photography,,phrasal_verbs,,statistics,,,,,,REALEC
+Both my sister and I take,both,,phrasal_verbs,,statistics,,,,,,REALEC
+our father. We,our,,phrasal_verbs,,statistics,,,,,,REALEC
+have the same interests and hobbies,have,,phrasal_verbs,,statistics,,,,,,REALEC
+take off,take,off,phrasal_verbs,,statistics,,,,,,REALEC
+fill,fill,,phrasal_verbs,,statistics,,,,,,REALEC
+after apart off in to up (3),after,to up,phrasal_verbs,,statistics,,,,,,REALEC
+get,get,,phrasal_verbs,,statistics,,,,,,REALEC
+across,across,across,phrasal_verbs,,statistics,,,,,,REALEC
+around,around,around,phrasal_verbs,,statistics,,,,,,REALEC
+see,see,,phrasal_verbs,,statistics,,,,,,REALEC
